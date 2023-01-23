@@ -1,11 +1,7 @@
-const fullscreenButton = document.getElementById("fullscreen");
-fullscreenButton.addEventListener("click", function() {
-if (!document.fullscreenElement) {
-    document.documentElement.requestFullscreen();
-} else {
-    if (document.exitFullscreen) {
-    document.exitFullscreen();
-    }
-}
+
+document.getElementById("drop").addEventListener("click", function(){
+    $("#myModal").modal("show");
 });
-console.log(document.fullscreenElement);
+document.getElementById("droptoggle").addEventListener("click", function(){
+    $("#myModal").modal("show");
+});

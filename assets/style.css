@@ -1,8 +1,8 @@
 
 *:root {
-  --eerie-black: hsl(0, 0%, 13%);
+  --eerie-black: hsl(0, 0%, 5%);
   --black: hsl(0, 0%, 0%);
-  --onyx: hsl(0, 0%, 27%);
+  --onyx: rgba(20, 20, 20, 1);
   --davys-gray: hsl(0, 0%, 33%);
   --sonic-silver: hsl(0, 0%, 47%);
   --spanish-gray: hsl(0, 0%, 60%);
@@ -10,7 +10,7 @@
   --cultured: hsl(0, 0%, 93%);
   --dylans-Blue: hsl(230, 81%, 43%);
   --sprint-yellow: hsl(52, 100%, 50%);
-  --kelly-green: hsl(103, 62%, 47%);
+  --kelly-green: hsl(90, 92%, 43%);
   --imperial-blue: hsl(247, 80%, 20%);
   --denim-blue: hsl(234, 93%, 18%);
   --red: hsl(0, 100%, 50%);
@@ -24,7 +24,7 @@ body {
   color: rgba(255, 255, 255, 0.9) !important;
   font-family: "Roboto", sans-serif !important;
   font-weight: 400;
-  background-color: var(--black) !important;
+  background-color: hsl(0, 0%, 5%) !important;
 }
 ::-webkit-scrollbar-track {
   background-color: var(--black);
@@ -53,10 +53,17 @@ body {
 /* Navbar header */
 .nav-link {
   color: rgba(255, 255, 255, 0.9) !important;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+#lik, #git{
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+.bi-fullscreen{
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 /* Navbar header */
-
 
 .vertical-center {
   min-height: 100%;
@@ -65,13 +72,44 @@ body {
   align-items: center;
 }
 
+
+
 .btn-white {
   background-color: #ffffff;
 }
 
 .card{
-  background-color: var(--black);
+  background-color: var(--onyx);
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -0.5rem 0.5rem 0.5rem rgb(0 0 0 / 50%);
+  border-radius: 0.6rem !important;
 }
+.card-header img{
+  padding: 1.5rem;
+}
+
+
+.fade.show{
+  animation: showFromLeft 0.5s ease-in-out;
+}
+@keyframes showFromLeft{
+  from{
+      transform: translateX(-100%);
+  }
+  to{
+      transform: translateX(0);
+  }
+}
+
+
+
+
+
+
 
 @media (min-width: 992px) {
 
