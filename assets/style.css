@@ -4,7 +4,7 @@
   --black: hsl(0, 0%, 0%);
   --onyx: rgba(20, 20, 20, 1);
   --davys-gray: hsl(0, 0%, 33%);
-  --sonic-silver: hsl(0, 0%, 47%);
+  --sonic-silver: hsla(0, 0%, 47%, 0.096);
   --spanish-gray: hsl(0, 0%, 60%);
   --white: hsl(0, 100%, 100%);
   --cultured: hsl(0, 0%, 93%);
@@ -92,7 +92,18 @@ body {
   padding: 1.5rem;
 }
 
-
+.text-bold {
+  position: relative;
+  top: -3.5rem;
+  left: 5rem;
+  right: 0;
+  bottom: 0;
+  font-weight: 700 !important;
+  color: var(--sonic-silver);
+  text-transform: uppercase;
+  opacity: 0.8;
+  font-size: 5rem;
+}
 .fade.show{
   animation: showFromLeft 0.5s ease-in-out;
 }
