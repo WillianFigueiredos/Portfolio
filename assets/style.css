@@ -4,14 +4,14 @@
   --black: hsl(0, 0%, 0%);
   --onyx: rgba(20, 20, 20, 1);
   --davys-gray: hsl(0, 0%, 33%);
-  --sonic-silver: hsla(0, 0%, 47%, 0.096);
+  --sonic-silver: hwb(0 47% 53% / 0.096);
   --spanish-gray: hsl(0, 0%, 60%);
-  --white: hsl(0, 100%, 100%);
+  --Azul: rgba(57, 216, 245,1);
   --cultured: hsl(0, 0%, 93%);
-  --dylans-Blue: hsl(230, 81%, 43%);
+  --dylans-Blue: rgba(23, 186, 255, 1);
   --sprint-yellow: hsl(52, 100%, 50%);
   --kelly-green: hsl(90, 92%, 43%);
-  --imperial-blue: hsl(247, 80%, 20%);
+  --Green-text: hsl(170, 41%, 48%);
   --denim-blue: hsl(234, 93%, 18%);
   --red: hsl(0, 100%, 50%);
   --orange: rgb(255, 84, 46);
@@ -38,6 +38,7 @@ body {
 /* RESET*/
 
 
+
 /* Particles Js*/
 #particles-js {
   width: 100%;
@@ -52,16 +53,12 @@ body {
 
 /* Navbar header */
 .nav-link {
-  color: var(--cultured) !important;
+  color: rgb(36 235 116) !important;
   font-size: 1.2rem;
 }
 #lik, #git{
   font-size: 1.2rem;
-  color: var(--cultured) !important;
-}
-.bi-fullscreen{
-  font-size: 1.2rem;
-  color: var(--cultured) !important;
+  color: rgb(36 235 116) !important;
 }
 .btn-white {
   background-color: var(--cultured);
@@ -79,6 +76,13 @@ body {
 }
 /* Home */
 
+
+
+
+
+
+
+
 .bold-text {
   font-size: 3.2rem;
   position: relative;
@@ -87,7 +91,7 @@ body {
   right: 0;
   bottom: 0;
   font-weight: 700 !important;
-  color: var(--cultured);
+  color:  rgb(36 235 116);
   opacity: 0.1;
   text-transform: uppercase;
 }
@@ -112,6 +116,21 @@ body {
   bottom: 0.5rem;
 }
 
+
+
+.curso-desc {
+  display: flex;
+  margin-bottom: 8rem;
+}
+.escola {
+  width: 30%;
+  border-right: 1.5px dashed var(--davys-gray);
+}
+.curso {
+  width: 50%;
+  padding-left: 4rem;
+}
+
 /* PROJETOS */
 .card{
   background-color: var(--onyx);
@@ -121,7 +140,11 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: -0.5rem 0.5rem 0.5rem rgb(0 0 0 / 50%);
-  border-radius: 0.6rem !important;
+  border-image: linear-gradient(to right, #545454, #78787818) 1 ;
+}
+
+.card-text{
+  color: var(--Green-text);
 }
 /* PROJETOS */
 
@@ -130,6 +153,9 @@ body {
 /* MODAL */
 .fade.show{
   animation: showFromLeft 0.5s ease-in-out;
+
+  width: 100%;
+  height: 100%;
 }
 @keyframes showFromLeft{
   from{
@@ -158,6 +184,7 @@ body {
 @media (max-width: 991.98px) {
 
 }
+
 @media (max-width: 768px) {
 
 }

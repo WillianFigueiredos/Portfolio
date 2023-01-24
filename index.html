@@ -23,12 +23,13 @@
     <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"/>
     <!-- Bootstrap icons -->
+    
   </head>
 
 
 <body>
 
-    <div id="particles-js" style="z-index: -1;"></div>
+    <div id="particles-js"></div>
     
 
     <section class="container-fluid">
@@ -89,7 +90,7 @@
     
     
     
-    <div class="modal fade fullscreen show" id="myModal" aria-modal="true">
+    <div class="modal fade show" id="myModal" aria-modal="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -99,7 +100,9 @@
               </button>
             </div>
             <div class="modal-body">
-              <p>Modal body text goes here.</p>
+                <div class="col-lg-4 text-center pb-5 pe-4 ps-4 rounded"><img class="img-fluid rounded-circle"
+                    src="images/profile.jpeg">
+                </div>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary">Save changes</button>
@@ -117,18 +120,23 @@
         <section class="Intro">
             <div class="row vertical-center">
                 <div class="intro-name col-lg-8 left pb-5">
-                    <h1 class="display-3">Willian Figueiredo</h1>
-                    <p class="lead name">
+                    <h1 class="display-3 name">Willian Figueiredo</h1>
+                    <p class="lead">
                         Eng. de Software Full Stack
                     </p>
+                    <div class="btn-dark">
+                        <a href="..." class="btn btn-outline-dark bg-light ">Download CV</a>
+                    </div>
                 </div>
-                <div class="col-lg-4 text-center pb-5 pe-4 ps-4 rounded"><img class="img-fluid rounded-circle"
-                    src="images/profile.jpeg">
-                </div>
+
             </div>
         </section>
-
-        
+        <div class="float-text" style="z-index: -1;">
+            <span>H</span>
+            <span>O</span>
+            <span>M</span>
+            <span>E</span>
+        </div>
         <section class="mt-4 mb-4 about">
             <h4 class="display-4">Um pouco sobre mim</h4>
             <h2 class="bold-text bg-text">About</h2>
@@ -147,70 +155,135 @@
             </div>
         </section>
 
+        <div class="float-text" id="abouttext">
+            <span>A</span>
+            <span>B</span>
+            <span>0</span>
+            <span>U</span>
+            <span>T</span>
+        </div>
+
         <section class="tech">
             <h1 class="display-4">Conhecimentos</h1>
             <h1 class="bold-text">Tech</h1>
             <div class="techn-icons row pt-5 tech-desc">
-                <div class="col-lg-12 col-md-12 col-sm-12 mt-4">
-                    <div class="icon-box d-flex flex-wrap">
-                        <div class="tech-item my-4 mx-4">
-                            <img class="tech-icon mb-2" src="images/html5.svg" width="50px">
-                            <h3>HTML5</h3>
+                    <div class="row mx-auto mt-5 align-items-center justify-content-between">
+                        <div class="col-6 col-md-6 col-xl-2 mb-3">
+                            <div class="card">
+                              <div class="card-body text-center py-4">
+                                <img src="images/bootstrap.svg" alt="laravel icon" width="80px">
+                                <div class="fw-bold mt-3">Laravel </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-6 col-xl-2 mb-4">
+                            <div class="card">
+                              <div class="card-body text-center py-4">
+                                <img src="images/css.svg" alt="VueJS icon" width="80px">
+                                <div class=" fs-6 fw-bold mt-3">VueJS</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-6 col-xl-2 mb-4">
+                            <div class="card">
+                              <div class="card-body text-center py-4">
+                                <img src="images/html5.svg" alt="java icon" width="80px">
+                                <div class="fw-bold mt-3">JavaEE</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-6 col-xl-2 mb-4">
+                            <div class="card">
+                              <div class="card-body text-center py-4">
+                                <img src="images/react.svg" alt="sass icon" width="80px">
+                                <div class="fw-bold mt-3">Sass</div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                        <div class="tech-item my-4 mx-3">
-                            <img class="tech-icon mb-2" src="images/css.svg" width="50px">
-                            <h3>CSS3</h3>
+                        <div class="row mx-auto align-items-center justify-content-between">
+                            <div class="col-6 col-md-6 col-xl-2 mb-4">
+                            <div class="card">
+                              <div class="card-body text-center py-4">
+                                <img src="images/javascript.svg" alt="tailwind css icon" width="80px">
+                                <div class="fw-bold mt-3">Tailwind CSS</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-6 col-xl-2 mb-4">
+                            <div class="card">
+                              <div class="card-body text-center py-4">
+                                <img src="images/javascript.svg" alt="tailwind css icon" width="80px">
+                                <div class="fw-bold mt-3">Bootstrap</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-6 col-xl-2 mb-4">
+                            <div class="card">
+                              <div class="card-body text-center py-4">
+                                <img src="images/javascript.svg" alt="tailwind css icon" width="80px">
+                                <div class="fw-bold mt-3">Git basics</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-6 col-xl-2 mb-4">
+                            <div class="card">
+                              <div class="card-body text-center py-4">
+                                <img src="images/javascript.svg" alt="tailwind css icon" width="80px">
+                                <div class="fw-bold mt-3">Git basics</div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                        <div class="tech-item my-4 mx-3">
-                            <img class="tech-icon mb-2" src="images/react.svg" width="50px">
-                            <h3>Bootstrap</h3>
-                        </div>
-                        <div class="tech-item my-4 mx-4">
-                            <img class="tech-icon mb-2" src="images/bootstrap.svg" width="50px">
-                            <h3>React</h3>
-                        </div>
-                        <div class="tech-item my-4 mx-4">
-                            <img class="tech-icon mb-2" src="images/javascript.svg" width="50px">
-                            <h3>javascript</h3>
-                        </div>
-                        <div class="tech-item my-4 mx-3">
-                            <img class="tech-icon mb-2" src="images/javascript.svg" width="50px">
-                            <h3>MySQL</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                      </div>
+                    </section>
 
-        <section>
-            <h1 class="display-4">Certificação</h1>
-            <h2 class="bold-text bg-text">courses</h2>
-            <div class="">
-                <div class="curso-desc">
-                    <h4>Bacharel em Engenharia Civil</h4>
-                    <p><a href="#" target="_blank">Universidade Paulista - UNIP </a></p>
-                </div>
-                <div class="curso-desc">
-                    <p>2015 - 2020</p>
-                </div>
-                <div class="curso-desc">
-                    <p>Média: <strong>7,8</strong></p>
-                </div>
-            </div>
+                    <section id="resume">
+                      <h1 class="mb-5 ">Experiencias e Educação</h1>
+                      <div class="btn-group" role="group" aria-label="Experience and Education buttons">
+                        <button type="button" class="btn btn-outline-light" id="education-btn">Education</button>
+                        <button type="button" class="btn btn-outline-light" id="experience-btn">Experience</button>
+                      </div>
+                      <div id="education" class="resume-section">
+                        <h2 class="mb-5 mt-5">Education</h2>
+                        <div class="curso-desc row">
+                          <div class="escola col-12 col-md-4">
+                            <h4>Universidade Paulista - UNIP </h4>
+                            <p>2022 - 2026</p>
+                          </div>
+                          <div class="curso col-12 col-md-8">
+                            <p>Bacharel em Engenharia Civil</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptatem. 
+                               Nemo corrupti corporis architecto vitae voluptatibus autem numquam unde veritatis,
+                               tempora error incidunt ducimus voluptates nobis pariatur atque sint porro!</p>
+                          </div>
+                        </div>
+                        <div class="curso-desc row">
+                          <div class="escola col-12 col-md-4">
+                            <h4>Universidade Cruzeiro do Sul</h4>
+                            <p>2015 - 2020</p>
+                          </div>
+                          <div class="curso col-12 col-md-4">
+                            <p>Bacharel em Engenharia de Software</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptatem. 
+                               Nemo corrupti corporis architecto vitae voluptatibus autem numquam unde veritatis,
+                               tempora error incidunt ducimus voluptates nobis pariatur atque sint porro!</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="experience" class="resume-section">
+                        <h2 class="mb-5">Experience</h2>
+                        <ul>
+                          <li>Software Developer Intern, ABC Company (2024-2025)</li>
+                          <li>Front-end Developer, DEF Company (2022-2024)</li>
+                        </ul>
+                      </div>
+                    </section>
+                    
+                  
+                  
 
-            <div class="">
-                <div class="desc">
-                    <h4>Bacharel em Engenharia de Software</h4>
-                    <p><a href="#" target="_blank">Universidade Cruzeiro do Sul</a>
-                    </p>
-                </div>
-                <div>
-                    <p>2022 - 2026</p>
-                </div>
-            </div>
-
-        </section>
-
+                  
         <section>
             <div class="container">
                 <div class="row d-flex justify-content-center mt-5">
@@ -220,66 +293,74 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
-                               <div class="card text-center">
-                                  <div class="card-header p-0">
-                                   <img src="images/Untitled_ Jan 23, 2023 3_18 PM.gif" alt="" class="w-100">
+                               <div class="card">
+                                  <div class="mt-4">
+                                    <ion-icon name="logo-html5"></ion-icon>
+                                    <ion-icon name="logo-css3"></ion-icon>
+                                    <ion-icon name="logo-javascript"></ion-icon>
+                                    <i class="bi bi-bootstrap "></i>
                                   </div>
                                 <div class="card-body">
-                                  <h5 class="card-title">On Shop E-commerce</h5>
-                                   <p class="card-text">With supporting text below as a natural lead-in to additional content With supporting text below as a natural lead-in to additional content.</p>
-                                   <p class="card-text">HTML - CSS - JS - NodeJS - Express - SQLite</p>
+                                  <h5 class="card-title mb-5">On Shop E-commerce</h5>
+                                   <p class="card-text mb-5">With supporting text below as a natural lead-in to additional content With supporting text below as a natural lead-in to additional content.</p>
                                 </div>
-                                <div class="d-flex justify-content-center gap-3">
-                                    <a href="https://onshopvariedades.com.br" target="_blank" class="btn btn-primary mb-4 p-2">Ver Projeto <i class="bi bi-browser-chrome"></i></a>
-                                    <a href="https://github.com/WillianFigueiredos/Marketplace" target="_blank"  class="btn btn-primary mb-4 p-2">Repo Github <i class="bi bi-github"></i></a>
+                                <div class="d-flex justify-content-center mt-5 gap-3">
+                                    <a href="https://onshopvariedades.com.br" target="_blank" class="btn btn-outline-light mb-4 p-2">Ver Projeto <i class="bi bi-box-arrow-in-up-right"></i></a>
+                                    <a href="https://github.com/WillianFigueiredos/Marketplace" target="_blank" class="btn btn-outline-light mb-4 p-2">Repo Github <i class="bi bi-github"></i></a>
                                 </div>
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
-                            <div class="card text-center">
-                               <div class="card-header p-0">
-                                <img src="images/Untitled_ Jan 23, 2023 3_18 PM.gif" alt="" class="w-100">
+                            <div class="card">
+                               <div class="mt-4">
+                                 <ion-icon name="logo-html5"></ion-icon>
+                                 <ion-icon name="logo-css3"></ion-icon>
+                                 <ion-icon name="logo-javascript"></ion-icon>
+                                 <i class="bi bi-bootstrap "></i>
                                </div>
                              <div class="card-body">
-                               <h5 class="card-title">On Shop E-commerce</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content With supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text">HTML - CSS - JS - NodeJS - Express - SQLite</p>
+                               <h5 class="card-title mb-5">On Shop E-commerce</h5>
+                                <p class="card-text mb-5">With supporting text below as a natural lead-in to additional content With supporting text below as a natural lead-in to additional content.</p>
                              </div>
-                             <div class="d-flex justify-content-center gap-3">
-                                 <a href="https://onshopvariedades.com.br" target="_blank" class="btn btn-primary mb-4 p-2">Ver Projeto <i class="bi bi-browser-chrome"></i></a>
-                                 <a href="https://github.com/WillianFigueiredos/Marketplace" target="_blank"  class="btn btn-primary mb-4 p-2">Repo Github <i class="bi bi-github"></i></a>
+                             <div class="d-flex justify-content-center mt-5 gap-3">
+                                 <a href="https://onshopvariedades.com.br" target="_blank" class="btn btn-primary bg-transparent  mb-4 p-2">Ver Projeto <i class="bi bi-box-arrow-in-up-right"></i></a>
+                                 <a href="https://github.com/WillianFigueiredos/Marketplace" target="_blank"  class="btn btn-primary bg-transparent mb-4 p-2">Repo Github <i class="bi bi-github"></i></a>
                              </div>
                          </div>
                        </div>
                        <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
-                        <div class="card text-center">
-                           <div class="card-header p-0">
-                            <img src="images/Untitled_ Jan 23, 2023 3_18 PM.gif" alt="" class="w-100">
+                        <div class="card">
+                           <div class="mt-4">
+                             <ion-icon name="logo-html5"></ion-icon>
+                             <ion-icon name="logo-css3"></ion-icon>
+                             <ion-icon name="logo-javascript"></ion-icon>
+                             <i class="bi bi-bootstrap "></i>
                            </div>
                          <div class="card-body">
-                           <h5 class="card-title">On Shop E-commerce</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content With supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text">HTML - CSS - JS - NodeJS - Express - SQLite</p>
+                           <h5 class="card-title mb-5">On Shop E-commerce</h5>
+                            <p class="card-text mb-5">With supporting text below as a natural lead-in to additional content With supporting text below as a natural lead-in to additional content.</p>
                          </div>
-                         <div class="d-flex justify-content-center gap-3">
-                             <a href="https://onshopvariedades.com.br" target="_blank" class="btn btn-primary mb-4 p-2">Ver Projeto <i class="bi bi-browser-chrome"></i></a>
-                             <a href="https://github.com/WillianFigueiredos/Marketplace" target="_blank"  class="btn btn-primary mb-4 p-2">Repo Github <i class="bi bi-github"></i></a>
+                         <div class="d-flex justify-content-center mt-5 gap-3">
+                             <a href="https://onshopvariedades.com.br" target="_blank" class="btn btn-primary bg-transparent  mb-4 p-2">Ver Projeto <i class="bi bi-box-arrow-in-up-right"></i></a>
+                             <a href="https://github.com/WillianFigueiredos/Marketplace" target="_blank"  class="btn btn-primary bg-transparent mb-4 p-2">Repo Github <i class="bi bi-github"></i></a>
                          </div>
                      </div>
                    </div>
                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
-                    <div class="card text-center">
-                       <div class="card-header p-0">
-                        <img src="images/Untitled_ Jan 23, 2023 3_18 PM.gif" alt="" class="w-100">
+                    <div class="card">
+                       <div class="mt-4">
+                         <ion-icon name="logo-html5"></ion-icon>
+                         <ion-icon name="logo-css3"></ion-icon>
+                         <ion-icon name="logo-javascript"></ion-icon>
+                         <i class="bi bi-bootstrap "></i>
                        </div>
                      <div class="card-body">
-                       <h5 class="card-title">On Shop E-commerce</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content With supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text">HTML - CSS - JS - NodeJS - Express - SQLite</p>
+                       <h5 class="card-title mb-5">hat</h5>
+                        <p class="card-text mb-5">With supporting text below as a natural lead-in to additional content With supporting text below as a natural lead-in to additional content.</p>
                      </div>
-                     <div class="d-flex justify-content-center gap-3">
-                         <a href="https://onshopvariedades.com.br" target="_blank" class="btn btn-primary mb-4 p-2">Ver Projeto <i class="bi bi-browser-chrome"></i></a>
-                         <a href="https://github.com/WillianFigueiredos/Marketplace" target="_blank"  class="btn btn-primary mb-4 p-2">Repo Github <i class="bi bi-github"></i></a>
+                     <div class="d-flex justify-content-center mt-5 gap-3">
+                         <a href="https://onshopvariedades.com.br" target="_blank" class="btn btn-primary bg-transparent  mb-4 p-2">Ver Projeto <i class="bi bi-box-arrow-in-up-right"></i></a>
+                         <a href="https://github.com/WillianFigueiredos/Marketplace" target="_blank"  class="btn btn-primary bg-transparent mb-4 p-2">Repo Github <i class="bi bi-github"></i></a>
                      </div>
                  </div>
                </div>
