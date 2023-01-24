@@ -1,4 +1,4 @@
-
+/* RESET*/
 *:root {
   --eerie-black: hsl(0, 0%, 5%);
   --black: hsl(0, 0%, 0%);
@@ -16,7 +16,6 @@
   --red: hsl(0, 100%, 50%);
   --orange: rgb(255, 84, 46);
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -33,9 +32,10 @@ body {
   width: 4px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: var(--onyx);
   border-radius: 15px;
 }
+/* RESET*/
 
 
 /* Particles Js*/
@@ -52,32 +52,67 @@ body {
 
 /* Navbar header */
 .nav-link {
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: var(--kelly-green) !important;
   font-size: 1.2rem;
 }
 #lik, #git{
   font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: var(--kelly-green) !important;
 }
 .bi-fullscreen{
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.9) !important;
 }
+.btn-white {
+  background-color: var(--kelly-green);
+}
 /* Navbar header */
 
+
+
+/* Home */
 .vertical-center {
   min-height: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
 }
+/* Home */
 
-
-
-.btn-white {
-  background-color: #ffffff;
+.bold-text {
+  font-size: 4em;
+  position: relative;
+  top: -100px;
+  left: 10px;
+  right: 0;
+  bottom: 0;
+  font-weight: 700 !important;
+  color: var(--kelly-green);
+  opacity: 0.1;
+  text-transform: uppercase;
+}
+.about-desc{
+  position: relative;
+  bottom: 7rem;
+}
+.tech-desc{
+  position: relative;
+  bottom: 8rem;
+}
+.curso-desc{
+  position: relative;
+  bottom: 2rem;
+}
+.proj{
+  position: absolute;
+  padding-top: 4rem;
+}
+.projdesc{
+  position: relative;
+  bottom: 0.5rem;
 }
 
+/* PROJETOS */
 .card{
   background-color: var(--onyx);
   gap: 2rem;
@@ -88,22 +123,11 @@ body {
   box-shadow: -0.5rem 0.5rem 0.5rem rgb(0 0 0 / 50%);
   border-radius: 0.6rem !important;
 }
-.card-header img{
-  padding: 1.5rem;
-}
+/* PROJETOS */
 
-.text-bold {
-  position: relative;
-  top: -3.5rem;
-  left: 5rem;
-  right: 0;
-  bottom: 0;
-  font-weight: 700 !important;
-  color: var(--sonic-silver);
-  text-transform: uppercase;
-  opacity: 0.8;
-  font-size: 5rem;
-}
+
+
+/* MODAL */
 .fade.show{
   animation: showFromLeft 0.5s ease-in-out;
 }
@@ -115,6 +139,7 @@ body {
       transform: translateX(0);
   }
 }
+/* MODAL */
 
 
 
