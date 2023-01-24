@@ -52,19 +52,19 @@ body {
 
 /* Navbar header */
 .nav-link {
-  color: var(--kelly-green) !important;
+  color: var(--cultured) !important;
   font-size: 1.2rem;
 }
 #lik, #git{
   font-size: 1.2rem;
-  color: var(--kelly-green) !important;
+  color: var(--cultured) !important;
 }
 .bi-fullscreen{
   font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: var(--cultured) !important;
 }
 .btn-white {
-  background-color: var(--kelly-green);
+  background-color: var(--cultured);
 }
 /* Navbar header */
 
@@ -80,14 +80,14 @@ body {
 /* Home */
 
 .bold-text {
-  font-size: 4em;
+  font-size: 3.2rem;
   position: relative;
   top: -100px;
   left: 10px;
   right: 0;
   bottom: 0;
   font-weight: 700 !important;
-  color: var(--kelly-green);
+  color: var(--cultured);
   opacity: 0.1;
   text-transform: uppercase;
 }
