@@ -7,6 +7,10 @@ document.getElementById("droptoggle").addEventListener("click", function(){
 });
 
 
+
+
+
+
 document.getElementById("education-btn").addEventListener("click", function() {
     document.getElementById("education").style.display = "block";
     document.getElementById("experience").style.display = "none";
@@ -20,3 +24,15 @@ document.getElementById("education-btn").addEventListener("click", function() {
   document.addEventListener("DOMContentLoaded", function(){
     document.getElementById("experience").style.display = "none";
   });
+
+
+
+
+
+  var scroll = new LocomotiveScroll({
+    el: document.querySelector('#scroll'),
+    smooth: true,
+  });
+  
+  
+  

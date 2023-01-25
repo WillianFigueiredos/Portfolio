@@ -23,6 +23,11 @@
     <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"/>
     <!-- Bootstrap icons -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" 
+    rel="stylesheet">
     
   </head>
 
@@ -33,17 +38,17 @@
     
 
     <section class="container-fluid">
-        <nav class="navbar row navbar-expand-lg navbar-light d-flex ">
+        <nav class="navbar row navbar-expand-lg d-flex">
             <div class="d-flex justify-content-end col-3" id="">
                 <div class="d-flex justify-content-start" id="">
                     <ul class="navbar-nav">
                         <li class="nav-item d-none d-md-block">
-                            <a class="nav-link active" aria-current="page" href="#"></a>
+                            <a class="nav-link active" aria-current="page" href="#"> < Willian Figueiredo /> </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="d-flex justify-content-center col-5" id="">
+            <div class="d-flex justify-content-center col-5 ps-5" id="">
                 <ul class="navbar-nav gap-4">
                     <li class="nav-item d-none d-sm-none d-md-none d-lg-block d-xl-block">
                         <a class="nav-link" href="#">Sobre min</a>
@@ -74,7 +79,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <ul class="d-flex justify-content-end mt-3 gap-4">
+                    <ul class="d-flex justify-content-end align-items-center mt-3 gap-4">
                         <li class="nav-item d-none d-sm-none d-md-none d-lg-block d-xl-block">
                             <a target="_blank" href="..."><i class="bi bi-linkedin" id="lik"></i></a>
                         </li>
@@ -113,10 +118,13 @@
       </div>
 
 
-    
+      <div class="fixed-right ps-5 social-media">
+        <a class="d-block mt-3" href="https://github.com/seu-usuario"><i class="bi bi-linkedin"></i></a>
+        <a class="d-block mt-3" href="https://www.linkedin.com/in/seu-perfil"><i class="bi bi-linkedin"></i></a>
+        <a class="d-block mt-3 last-item" href="mailto:seuemail@exemplo.com"><i class="bi bi-linkedin"></i></a>
+      </div>
 
     <div class="container">
-
         <section class="Intro">
             <div class="row vertical-center">
                 <div class="intro-name col-lg-8 left pb-5">
@@ -125,21 +133,16 @@
                         Eng. de Software Full Stack
                     </p>
                     <div class="btn-dark">
-                        <a href="..." class="btn btn-outline-dark bg-light ">Download CV</a>
+                        <a href="..." class="btn btn-outline-dark ">Download CV</a>
                     </div>
                 </div>
 
             </div>
         </section>
-        <div class="float-text" style="z-index: -1;">
-            <span>H</span>
-            <span>O</span>
-            <span>M</span>
-            <span>E</span>
-        </div>
+
+
         <section class="mt-4 mb-4 about">
-            <h4 class="display-4">Um pouco sobre mim</h4>
-            <h2 class="bold-text bg-text">About</h2>
+            <h4 class="display-4">Sobre</h4>
             <div class="row">
                 <div class="col-lg-6 wrap text-left">
                     <div class="about-desc">
@@ -154,90 +157,94 @@
                 </div>
             </div>
         </section>
+      </div>
 
-        <div class="float-text" id="abouttext">
-            <span>A</span>
-            <span>B</span>
-            <span>0</span>
-            <span>U</span>
-            <span>T</span>
-        </div>
 
-        <section class="tech">
-            <h1 class="display-4">Conhecimentos</h1>
-            <h1 class="bold-text">Tech</h1>
-            <div class="techn-icons row pt-5 tech-desc">
-                    <div class="row mx-auto mt-5 align-items-center justify-content-between">
-                        <div class="col-6 col-md-6 col-xl-2 mb-3">
-                            <div class="card">
-                              <div class="card-body text-center py-4">
-                                <img src="images/bootstrap.svg" alt="laravel icon" width="80px">
-                                <div class="fw-bold mt-3">Laravel </div>
+        <section class="tech tech-bg ">
+          <div class="container">
+            <h1 class="display-4">Linguagens e tecnologias</h1>
+            <div class="techn-icons row mt-4 mx-a">
+                    <div class="mb-5 row mx-auto justify-content-between">
+                          <div class="row"> 
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                              <div class="card">
+                                <div class="card-block pe-md-0 pe-lg-5 pe-5 cardtag">
+                                  <img src="images/html5.svg" alt="java icon" width="50px" height="60px" class="p-1">
+                                  <span href="#" class="card-link">HTML5</span>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="col-6 col-md-6 col-xl-2 mb-4">
-                            <div class="card">
-                              <div class="card-body text-center py-4">
-                                <img src="images/css.svg" alt="VueJS icon" width="80px">
-                                <div class=" fs-6 fw-bold mt-3">VueJS</div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                              <div class="card">
+                                <div class="card-block pe-md-0 pe-lg-5 pe-5 cardtag">
+                                  <img src="images/html5.svg" alt="java icon" width="50px" height="60px" class="p-1">
+                                  <span href="#" class="card-link">CSS</span>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="col-6 col-md-6 col-xl-2 mb-4">
-                            <div class="card">
-                              <div class="card-body text-center py-4">
-                                <img src="images/html5.svg" alt="java icon" width="80px">
-                                <div class="fw-bold mt-3">JavaEE</div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                              <div class="card">
+                                <div class="card-block pe-md-0 pe-lg-5 pe-5 cardtag">
+                                  <img src="images/html5.svg" alt="java icon" width="50px" height="60px" class="p-1">
+                                  <span href="#" class="card-link">Bootstrap</span>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="col-6 col-md-6 col-xl-2 mb-4">
-                            <div class="card">
-                              <div class="card-body text-center py-4">
-                                <img src="images/react.svg" alt="sass icon" width="80px">
-                                <div class="fw-bold mt-3">Sass</div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                              <div class="card">
+                                <div class="card-block pe-md-0 pe-lg-5 pe-5 cardtag">
+                                  <img src="images/html5.svg" alt="java icon" width="50px" height="60px" class="p-1">
+                                  <span href="#" class="card-link">JavaScript</span>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        </div>
-                        <div class="row mx-auto align-items-center justify-content-between">
-                            <div class="col-6 col-md-6 col-xl-2 mb-4">
-                            <div class="card">
-                              <div class="card-body text-center py-4">
-                                <img src="images/javascript.svg" alt="tailwind css icon" width="80px">
-                                <div class="fw-bold mt-3">Tailwind CSS</div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                              <div class="card">
+                                <div class="card-block pe-md-0 pe-lg-5 pe-5 cardtag">
+                                  <img src="images/html5.svg" alt="java icon" width="50px" height="60px" class="p-1">
+                                  <span href="#" class="card-link">React</span>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="col-6 col-md-6 col-xl-2 mb-4">
-                            <div class="card">
-                              <div class="card-body text-center py-4">
-                                <img src="images/javascript.svg" alt="tailwind css icon" width="80px">
-                                <div class="fw-bold mt-3">Bootstrap</div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                              <div class="card">
+                                <div class="card-block pe-md-0 pe-lg-5 pe-5 cardtag">
+                                  <img src="images/html5.svg" alt="java icon" width="50px" height="60px" class="p-1">
+                                  <span href="#" class="card-link">MySQL</span>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="col-6 col-md-6 col-xl-2 mb-4">
-                            <div class="card">
-                              <div class="card-body text-center py-4">
-                                <img src="images/javascript.svg" alt="tailwind css icon" width="80px">
-                                <div class="fw-bold mt-3">Git basics</div>
+                            <div class="col-lg-3  col-md-4 col-12 mt-4">
+                              <div class="card">
+                                <div class="card-block pe-md-0 pe-lg-5 pe-5 cardtag">
+                                  <img src="images/html5.svg" alt="java icon" width="50px" height="60px" class="p-1">
+                                  <span href="#" class="card-link">Git</span>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="col-6 col-md-6 col-xl-2 mb-4">
-                            <div class="card">
-                              <div class="card-body text-center py-4">
-                                <img src="images/javascript.svg" alt="tailwind css icon" width="80px">
-                                <div class="fw-bold mt-3">Git basics</div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                              <div class="card">
+                                <div class="card-block pe-md-0 pe-lg-5 pe-5 cardtag">
+                                  <img src="images/html5.svg" alt="java icon" width="50px" height="60px" class="p-1">
+                                  <span href="#" class="card-link">NodeJS</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                              <div class="card">
+                                <div class="card-block pe-md-0 pe-lg-5 pe-5 cardtag">
+                                  <img src="images/html5.svg" alt="java icon" width="50px" height="60px" class="p-1">
+                                  <span href="#" class="card-link">HTML5</span>
+                                </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </section>
+                    </div>
+              </section>
 
+                    <div class="container mt-5">
                     <section id="resume">
                       <h1 class="mb-5 ">Experiencias e Educação</h1>
                       <div class="btn-group" role="group" aria-label="Experience and Education buttons">
@@ -247,11 +254,11 @@
                       <div id="education" class="resume-section">
                         <h2 class="mb-5 mt-5">Education</h2>
                         <div class="curso-desc row">
-                          <div class="escola col-12 col-md-4">
+                          <div class="escola col-12">
                             <h4>Universidade Paulista - UNIP </h4>
                             <p>2022 - 2026</p>
                           </div>
-                          <div class="curso col-12 col-md-8">
+                          <div class="curso col-12">
                             <p>Bacharel em Engenharia Civil</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptatem. 
                                Nemo corrupti corporis architecto vitae voluptatibus autem numquam unde veritatis,
@@ -259,11 +266,11 @@
                           </div>
                         </div>
                         <div class="curso-desc row">
-                          <div class="escola col-12 col-md-4">
+                          <div class="escola col-12">
                             <h4>Universidade Cruzeiro do Sul</h4>
                             <p>2015 - 2020</p>
                           </div>
-                          <div class="curso col-12 col-md-4">
+                          <div class="curso col-12">
                             <p>Bacharel em Engenharia de Software</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptatem. 
                                Nemo corrupti corporis architecto vitae voluptatibus autem numquam unde veritatis,
@@ -272,26 +279,43 @@
                         </div>
                       </div>
                       <div id="experience" class="resume-section">
-                        <h2 class="mb-5">Experience</h2>
-                        <ul>
-                          <li>Software Developer Intern, ABC Company (2024-2025)</li>
-                          <li>Front-end Developer, DEF Company (2022-2024)</li>
-                        </ul>
+                        <h2 class="mb-5 mt-5">Experience</h2>
+                        <div class="curso-desc row">
+                          <div class="escola col-12">
+                            <h4>Universidade Paulista - UNIP </h4>
+                            <p>2022 - 2026</p>
+                          </div>
+                          <div class="curso col-12">
+                            <p>Bacharel em Engenharia Civil</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptatem. 
+                               Nemo corrupti corporis architecto vitae voluptatibus autem numquam unde veritatis,
+                               tempora error incidunt ducimus voluptates nobis pariatur atque sint porro!</p>
+                          </div>
+                        </div>
+                        <div class="curso-desc row">
+                          <div class="escola col-12">
+                            <h4>Universidade Cruzeiro do Sul</h4>
+                            <p>2015 - 2020</p>
+                          </div>
+                          <div class="curso col-12">
+                            <p>Bacharel em Engenharia de Software</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptatem. 
+                               Nemo corrupti corporis architecto vitae voluptatibus autem numquam unde veritatis,
+                               tempora error incidunt ducimus voluptates nobis pariatur atque sint porro!</p>
+                          </div>
+                        </div>
                       </div>
                     </section>
+                  </div>
                     
                   
                   
 
                   
-        <section>
+          <section class=" Projects Projects-bg">
             <div class="container">
-                <div class="row d-flex justify-content-center mt-5">
+                <div class="row d-flex justify-content-center mt-5 mx-auto">
                     <h1 class="display-4 mt-5 p-projdesc">Projetos</h1> 
-                    <h2 class="bold-text bg-text">Projects</h2>
-
-                    <div class="container">
-                        <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
                                <div class="card">
                                   <div class="mt-4">
@@ -364,12 +388,27 @@
                      </div>
                  </div>
                </div>
+               <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card">
+                   <div class="mt-4">
+                     <ion-icon name="logo-html5"></ion-icon>
+                     <ion-icon name="logo-css3"></ion-icon>
+                     <ion-icon name="logo-javascript"></ion-icon>
+                     <i class="bi bi-bootstrap "></i>
+                   </div>
+                 <div class="card-body">
+                   <h5 class="card-title mb-5">hat</h5>
+                    <p class="card-text mb-5">With supporting text below as a natural lead-in to additional content With supporting text below as a natural lead-in to additional content.</p>
+                 </div>
+                 <div class="d-flex justify-content-center mt-5 gap-3">
+                     <a href="https://onshopvariedades.com.br" target="_blank" class="btn btn-primary bg-transparent  mb-4 p-2">Ver Projeto <i class="bi bi-box-arrow-in-up-right"></i></a>
+                     <a href="https://github.com/WillianFigueiredos/Marketplace" target="_blank"  class="btn btn-primary bg-transparent mb-4 p-2">Repo Github <i class="bi bi-github"></i></a>
+                 </div>
+             </div>
+           </div>
             </div>
-        </div>
-    </div>
-</div>
-                
-</section>
+        </div>  
+      </section>
 
         
 
@@ -410,6 +449,7 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-
+    <script src="js/locomotive-scroll.js"></script>
+    
   </body>
 </html>

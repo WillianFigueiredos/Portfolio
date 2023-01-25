@@ -21,7 +21,7 @@ html {
 }
 body {
   color: rgba(255, 255, 255, 0.9) !important;
-  font-family: "Roboto", sans-serif !important;
+  font-family: 'JetBrains Mono', monospace !important;
   font-weight: 400;
   background-color: hsl(0, 0%, 5%) !important;
 }
@@ -63,7 +63,56 @@ body {
 .btn-white {
   background-color: var(--cultured);
 }
+.nav-link:hover {
+  color: var(--cultured)!important;
+}
+#git:hover {
+  color: var(--cultured)!important;
+}
+#lik:hover {
+  color: var(--cultured)!important;
+}
+.btn-outline-dark{
+  --bs-btn-color: rgb(36 235 116) !important;
+  --bs-btn-color: rgb(36 235 116)!important;
+  --bs-btn-border-color:rgb(36 235 116)!important;  
+}
 /* Navbar header */
+
+
+
+.tech-bg{
+  background-color: var(--sonic-silver);
+}
+.Projects-bg{
+  background-color: var(--sonic-silver);
+}
+
+.cardtag span{
+  margin-right: 5.5rem;
+}
+
+
+.social-media{
+  position: fixed;
+  top: 70%;
+}
+.social-media i{
+  font-size: 1rem;
+  color: var(--spanish-gray); 
+}
+.social-media::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 120px;
+  margin: 20px auto 0;
+  background: var(--davys-gray);
+  opacity: 0.5;
+}
+
+
+
 
 
 
@@ -80,41 +129,6 @@ body {
 
 
 
-
-
-
-.bold-text {
-  font-size: 3.2rem;
-  position: relative;
-  top: -100px;
-  left: 10px;
-  right: 0;
-  bottom: 0;
-  font-weight: 700 !important;
-  color:  rgb(36 235 116);
-  opacity: 0.1;
-  text-transform: uppercase;
-}
-.about-desc{
-  position: relative;
-  bottom: 7rem;
-}
-.tech-desc{
-  position: relative;
-  bottom: 8rem;
-}
-.curso-desc{
-  position: relative;
-  bottom: 2rem;
-}
-.proj{
-  position: absolute;
-  padding-top: 4rem;
-}
-.projdesc{
-  position: relative;
-  bottom: 0.5rem;
-}
 
 
 
@@ -140,7 +154,6 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: -0.5rem 0.5rem 0.5rem rgb(0 0 0 / 50%);
-  border-image: linear-gradient(to right, #545454, #78787818) 1 ;
 }
 
 .card-text{
@@ -195,3 +208,7 @@ body {
 @media (max-width: 340px) {
 
 }
+
+
+
+
