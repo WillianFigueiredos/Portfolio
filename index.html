@@ -163,7 +163,7 @@
 
     
 
-      <section class="Intro container" >
+    <section class="Intro container" style="background-image: url('images/pcman-removebg-preview.svg'); background-size: cover; background-position: center; padding: 2.2rem;">
         <div class="row vertical-center">
           <div class="intro-name col-12 col-lg-7 pb-5 mt-5 mt-md-5">
             <p class="h6 pb-2">Óla meu nome é</p>
@@ -189,7 +189,15 @@
         </div>
       </section>
 
-      <section class="about container mt-5" id="about">
+      <div class="float-text">
+        <span>H</span>
+        <span>O</span>
+        <span>M</span>
+        <span>E</span>
+      </div>
+
+      <section class="about about-bg mt-5" id="about">
+        <div class="container">
         <div class="d-flex col-lg-12 col-md-12 flex-wrap picborder mt-5">
             <div class="row">
                 <div class="col-lg-6 d-flex justify-content-center">
@@ -207,13 +215,22 @@
                 </div>
             </div>
         </div>
+      </div>
       </section>
+
+      <div class="float-text aboutopacleft">
+        <span>A</span>
+        <span>B</span>
+        <span>O</span>
+        <span>U</span>
+        <span>T</span>
+      </div>
 
 
     <section class="tech tech-bg" id="tech">
       <div class="container">
-        <h1 class="display-4 titletech">Linguagens e tecnologias</h1>
-        <div class="techn-icons row mt-4 mx-auto">
+        <h1 class="display-4 pb-4 titletech ">Linguagens e tecnologias</h1>
+        <div class="techn-icons row mx-auto">
           <div class="mb-5 row mx-auto justify-content-center">
             <div class="row">
               <div class="col-lg-3 col-md-4 col-12 mt-4">
@@ -352,9 +369,22 @@
       </div>
     </section>
 
+    
+    <div class="float-text techleft">
+      <span>T</span>
+      <span>E</span>
+      <span>C</span>
+      <span>H</span>
+    </div>
+
+    <div class="float-text xpopacleft"> 
+      <span>X</span>
+      <span>P</span>
+    </div>
+
     <div class="container mt-5">
       <section id="resume">
-        <h1 class="mb-5">Experiencias e Educação</h1>
+        <h1 class="mb-5 pb-3 titlexp">Experiencias e Educação</h1>
         <div
           class="btn-group"
           role="group"
@@ -362,21 +392,21 @@
         >
           <button
             type="button"
-            class="btn btn-outline-light"
+            class="btn btn-outline-light d-flex align-items-center justify-content-center" style="height: 60px; width: 200px;"
             id="education-btn"
           >
-            Education
+            <span>Curso e Certificações</span>
           </button>
           <button
             type="button"
-            class="btn btn-outline-light"
+            class="btn btn-outline-light d-flex align-items-center justify-content-center" style="height: 60px; width: 200px;"
             id="experience-btn"
           >
-            Experience
+            <span>Experiencia Professional</span>
           </button>
         </div>
         <div id="education" class="resume-section">
-          <h2 class="mb-5 mt-5">Education</h2>
+          <h2 class="mb-5 mt-5"><span class="edutitle">Educação</span></h2>
           <div class="curso-desc row">
             <div class="escola col-12">
               <h4>Universidade Paulista - UNIP</h4>
@@ -409,7 +439,7 @@
           </div>
         </div>
         <div id="experience" class="resume-section">
-          <h2 class="mb-5 mt-5">Experience</h2>
+          <h2 class="mb-5 mt-5"><span class="xptitle">Profissional</span></h2>
           <div class="curso-desc row">
             <div class="escola col-12">
               <h4>Universidade Paulista - UNIP</h4>
@@ -444,17 +474,27 @@
       </section>
     </div>
 
+    <div class="float-text proleft">
+      <span>P</span>
+      <span>R</span>
+      <span>O</span>
+      <span>J</span>
+      <span>E</span>
+      <span>C</span>
+      <span>T</span>
+      <span>S</span>
+    </div>
+
     <section class="Projects Projects-bg">
       <div class="container">
         <div class="row d-flex justify-content-center mt-5 mx-auto">
-          <h1 class="display-4 mt-5 p-projdesc">Projetos</h1>
+          <h1 class="display-4 mt-5 pb-4 projdesc">Projetos</h1>
           <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
             <div class="card">
-              <div class="mt-4">
+              <div class="mt-4 iconscardproj">
                 <ion-icon name="logo-html5"></ion-icon>
                 <ion-icon name="logo-css3"></ion-icon>
                 <ion-icon name="logo-javascript"></ion-icon>
-                <i class="bi bi-bootstrap"></i>
               </div>
               <div class="card-body">
                 <h5 class="card-title mb-5">On Shop E-commerce</h5>
@@ -468,13 +508,13 @@
                 <a
                   href="https://onshopvariedades.com.br"
                   target="_blank"
-                  class="btn btn-outline-light mb-4 p-2"
+                  class="btn btn-outline-light mb-4 p-2 deploy-btn"
                   >Ver Projeto <i class="bi bi-box-arrow-in-up-right"></i
                 ></a>
                 <a
                   href="https://github.com/WillianFigueiredos/Marketplace"
                   target="_blank"
-                  class="btn btn-outline-light mb-4 p-2"
+                  class="btn btn-outline-light mb-4 p-2 repo-btn"
                   >Repo Github <i class="bi bi-github"></i
                 ></a>
               </div>
@@ -482,11 +522,10 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
             <div class="card">
-              <div class="mt-4">
+              <div class="mt-4 iconscardproj">
                 <ion-icon name="logo-html5"></ion-icon>
                 <ion-icon name="logo-css3"></ion-icon>
                 <ion-icon name="logo-javascript"></ion-icon>
-                <i class="bi bi-bootstrap"></i>
               </div>
               <div class="card-body">
                 <h5 class="card-title mb-5">On Shop E-commerce</h5>
@@ -500,13 +539,13 @@
                 <a
                   href="https://onshopvariedades.com.br"
                   target="_blank"
-                  class="btn btn-primary bg-transparent mb-4 p-2"
+                  class="btn btn-outline-light mb-4 p-2 deploy-btn"
                   >Ver Projeto <i class="bi bi-box-arrow-in-up-right"></i
                 ></a>
                 <a
                   href="https://github.com/WillianFigueiredos/Marketplace"
                   target="_blank"
-                  class="btn btn-primary bg-transparent mb-4 p-2"
+                  class="btn btn-outline-light mb-4 p-2 repo-btn"
                   >Repo Github <i class="bi bi-github"></i
                 ></a>
               </div>
@@ -514,11 +553,10 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
             <div class="card">
-              <div class="mt-4">
+              <div class="mt-4 iconscardproj">
                 <ion-icon name="logo-html5"></ion-icon>
                 <ion-icon name="logo-css3"></ion-icon>
                 <ion-icon name="logo-javascript"></ion-icon>
-                <i class="bi bi-bootstrap"></i>
               </div>
               <div class="card-body">
                 <h5 class="card-title mb-5">On Shop E-commerce</h5>
@@ -532,13 +570,13 @@
                 <a
                   href="https://onshopvariedades.com.br"
                   target="_blank"
-                  class="btn btn-primary bg-transparent mb-4 p-2"
+                  class="btn btn-outline-light mb-4 p-2 deploy-btn"
                   >Ver Projeto <i class="bi bi-box-arrow-in-up-right"></i
                 ></a>
                 <a
                   href="https://github.com/WillianFigueiredos/Marketplace"
                   target="_blank"
-                  class="btn btn-primary bg-transparent mb-4 p-2"
+                  class="btn btn-outline-light mb-4 p-2 repo-btn"
                   >Repo Github <i class="bi bi-github"></i
                 ></a>
               </div>
@@ -546,14 +584,13 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
             <div class="card">
-              <div class="mt-4">
+              <div class="mt-4 iconscardproj">
                 <ion-icon name="logo-html5"></ion-icon>
                 <ion-icon name="logo-css3"></ion-icon>
                 <ion-icon name="logo-javascript"></ion-icon>
-                <i class="bi bi-bootstrap"></i>
               </div>
               <div class="card-body">
-                <h5 class="card-title mb-5">hat</h5>
+                <h5 class="card-title mb-5">On Shop E-commerce</h5>
                 <p class="card-text mb-5">
                   With supporting text below as a natural lead-in to additional
                   content With supporting text below as a natural lead-in to
@@ -564,13 +601,13 @@
                 <a
                   href="https://onshopvariedades.com.br"
                   target="_blank"
-                  class="btn btn-primary bg-transparent mb-4 p-2"
+                  class="btn btn-outline-light mb-4 p-2 deploy-btn"
                   >Ver Projeto <i class="bi bi-box-arrow-in-up-right"></i
                 ></a>
                 <a
                   href="https://github.com/WillianFigueiredos/Marketplace"
                   target="_blank"
-                  class="btn btn-primary bg-transparent mb-4 p-2"
+                  class="btn btn-outline-light mb-4 p-2 repo-btn"
                   >Repo Github <i class="bi bi-github"></i
                 ></a>
               </div>
@@ -578,14 +615,13 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
             <div class="card">
-              <div class="mt-4">
+              <div class="mt-4 iconscardproj">
                 <ion-icon name="logo-html5"></ion-icon>
                 <ion-icon name="logo-css3"></ion-icon>
                 <ion-icon name="logo-javascript"></ion-icon>
-                <i class="bi bi-bootstrap"></i>
               </div>
               <div class="card-body">
-                <h5 class="card-title mb-5">hat</h5>
+                <h5 class="card-title mb-5">On Shop E-commerce</h5>
                 <p class="card-text mb-5">
                   With supporting text below as a natural lead-in to additional
                   content With supporting text below as a natural lead-in to
@@ -596,13 +632,13 @@
                 <a
                   href="https://onshopvariedades.com.br"
                   target="_blank"
-                  class="btn btn-primary bg-transparent mb-4 p-2"
+                  class="btn btn-outline-light mb-4 p-2 deploy-btn"
                   >Ver Projeto <i class="bi bi-box-arrow-in-up-right"></i
                 ></a>
                 <a
                   href="https://github.com/WillianFigueiredos/Marketplace"
                   target="_blank"
-                  class="btn btn-primary bg-transparent mb-4 p-2"
+                  class="btn btn-outline-light mb-4 p-2 repo-btn"
                   >Repo Github <i class="bi bi-github"></i
                 ></a>
               </div>
