@@ -28,11 +28,5 @@ document.getElementById("education-btn").addEventListener("click", function() {
 
 
 
-
-  var scroll = new LocomotiveScroll({
-    el: document.querySelector('#scroll'),
-    smooth: true,
-  });
-  
   
   

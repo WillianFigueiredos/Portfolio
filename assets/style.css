@@ -1,28 +1,41 @@
 /* RESET*/
 *:root {
-  --eerie-black: hsl(0, 0%, 5%);
-  --black: hsl(0, 0%, 0%);
+  --eerie-black: rgb(13, 13, 13);
+  --black: rgb(18, 18, 18);
   --onyx: rgba(20, 20, 20, 1);
-  --davys-gray: hsl(0, 0%, 33%);
-  --sonic-silver: hwb(0 47% 53% / 0.096);
-  --spanish-gray: hsl(0, 0%, 60%);
-  --Azul: rgba(57, 216, 245,1);
-  --cultured: hsl(0, 0%, 93%);
+
+  --davys-gray: rgb(84, 84, 84);
+  --spanish-gray: rgb(120, 120, 120);
+  --sonic-silver: rgba(120, 120, 120, 0.096);
+
+  --gold-primary:rgb(137 113 91);
+
+  --Azul: rgb(0 102 255);
+  --dylans-Blue: rgb(23, 186, 255);
+  --denim-blue:  rgb(0 204 255);
+
+  --cultured: rgb(237, 237, 237);
   --cultured-offwhite: rgba(239, 233, 219,1);
-  --dylans-Blue: rgba(23, 186, 255, 1);
-  --sprint-yellow: hsl(52, 100%, 50%);
+
+  
+  --sprint-yellow: rgba(219, 151, 3, 1);
+  --yellow-primary: rgba(236, 126, 67, 1);
+
   --kelly-green: hsl(90, 92%, 43%);
-  --Green-text: hsl(170, 41%, 48%);
-  --denim-blue: hsl(234, 93%, 18%);
-  --red: hsl(0, 100%, 50%);
+  
+
+
+  --pink-primary: rgb(255 0 102);
+
   --orange: rgb(255, 84, 46);
+  --orange-primary: rgba(218, 41, 41, 1);
 }
 
 body {
   color: var(--cultured-offwhite) !important;
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 400;
-  background-color: hsl(0, 0%, 5%) !important;
+  background-color: var(--black) !important;
 }
 ::-webkit-scrollbar-track {
   background-color: var(--black);
@@ -40,13 +53,9 @@ body {
 
 /* Navbar header */
 .nav-link {
-  color: rgb(36 235 116) !important;
-  font-size: 0.9rem;
+  color: var(--dylans-Blue) !important;
+  font-size: 0.95rem;
   text-transform: capitalize;
-}
-#lik, #git{
-  font-size: 1.4rem;
-  color: rgb(36 235 116) !important;
 }
 .btn-white {
   background-color: var(--cultured);
@@ -61,9 +70,9 @@ body {
   color: var(--cultured)!important;
 }
 .btn-outline-dark{
-  --bs-btn-color: rgb(36 235 116) !important;
-  --bs-btn-color: rgb(36 235 116)!important;
-  --bs-btn-border-color:rgb(36 235 116)!important;  
+  --bs-btn-color: var(--dylans-Blue) !important;
+  --bs-btn-color: var(--dylans-Blue)!important;
+  --bs-btn-border-color:var(--dylans-Blue)!important;  
 }
 .social-media{
   position: fixed;
@@ -71,7 +80,7 @@ body {
 }
 .social-media i{
   font-size: 1rem;
-  color: var(--spanish-gray); 
+  color: white; 
 }
 .social-media::after {
   content: "";
@@ -87,6 +96,10 @@ body {
 
 
 /* Home */
+.Intro{
+  background-image: url('images/pcman.jpg')!important;
+  background-size: cover !important;
+}
 .vertical-center {
   min-height: 100%;
   min-height: 90vh;
@@ -97,23 +110,41 @@ body {
 .nameintro{
   font-size: 3rem;
   font-weight: 600;
+  color: var(--gold-primary);
+}
+.namehearder{
+  color: var(--pink-primary);
 }
 .intro-name{
   padding-top: 4rem;
 }
-
+.prog{
+  color: var(--orange-primary);
+}
 .picborder::after {
   content: "";
   position: relative;
   bottom: 28rem;
   left: 4rem;
-  border-top: 9px solid rgb(36 235 116);
-  border-left: 9px solid rgb(36 235 116);
+  border-top: 9px solid var(--gold-primary);
+  border-left: 9px solid var(--gold-primary);
   height: 18rem;
   width: 18rem;
 }
+.picborder::before {
+  content: "";
+  position: absolute;
+  top: 71rem;
+  left: 27rem;
+  border-top: 9px solid var(--gold-primary);
+  border-left: 9px solid var(--gold-primary);
+  height: 18rem;
+  width: 18rem;
+  rotate: 180deg;
+}
 .about {
-  border-top: 0;
+  margin: 0 auto;
+  padding-top: 5.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,15 +157,71 @@ body {
   text-decoration: none;
   color: var(--cultured);
   opacity: 0.5;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.homescroll {
+  animation: scroll-animation 2s ease-in-out infinite;
+}
+
+@keyframes scroll-animation {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(10px);
+  }
+  100% {
+      transform: translateY(0);
+  }
 }
 
 
 
+
+
+
+.techscroll{
+  text-decoration: none;
+  color: var(--cultured);
+  opacity: 0.5;
+  padding-bottom: 10rem;
+  padding-top: 0;
+}
+
+
+
+.titleabout{
+  color: var(--davys-gray);
+  font-family: 'Bebas Neue',sans-serif !important;
+  letter-spacing: 0.2rem;
+}
+
+
+.titletech{
+  color: var(--davys-gray);
+  padding-top: 3rem;
+  font-family: 'Bebas Neue',sans-serif !important;
+  letter-spacing: 0.2rem;
+}
 
 
 .tech-bg{
-  background-color: var(--sonic-silver);
+  padding-bottom: 3rem;
 }
+
+.cardtech{
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border-color: var(--gold-primary);
+  border-radius: 0 !important;
+}
+
+
+
+
+
+
 
 
 
@@ -151,6 +238,9 @@ body {
   width: 50%;
   padding-left: 4rem;
 }
+
+
+
 
 
 
