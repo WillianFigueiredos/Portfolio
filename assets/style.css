@@ -97,10 +97,35 @@ body {
   font-size: 3rem;
   font-weight: 600;
 }
+.intro-name{
+  padding-top: 4rem;
+}
+
+.picborder::after {
+  content: "";
+  position: relative;
+  bottom: 28rem;
+  left: 4rem;
+  border-top: 9px solid rgb(36 235 116);
+  border-left: 9px solid rgb(36 235 116);
+  height: 18rem;
+  width: 18rem;
+}
+.about {
+  border-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Home */
 
 
 
+.homescroll a {
+  text-decoration: none;
+  color: var(--cultured);
+  opacity: 0.5;
+}
 
 
 
