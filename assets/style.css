@@ -400,11 +400,17 @@ body {
     padding-top: 0rem;
     padding: 0rem;
   }
+  .introdesc{
+    font-size: clamp(16px, 1vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+  } 
   .prog{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .descintro{
-    font-size: 1.25rem;
+    font-size: clamp(20px, 6vw, 23px);
+    font-weight: 600;
   }
   /* Home */
   
@@ -417,6 +423,19 @@ body {
   }
   .titleabout{
     margin-top: 1rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
+  .about {
+    padding-top: 4rem;
+  }
+  .textabout{
+    padding-top: 1rem;
+    font-size: clamp(16px, 1vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
   }
   /* About */
 
@@ -427,17 +446,59 @@ body {
   .curso-desc {
     margin-bottom: 4rem;
   }
+  .titletech{
+    padding-top: 7rem;
+    margin-bottom: 1.5rem!important;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
   /* Tech */
 
   /* Xp */
+  .titlexp{
+    padding: 1rem;
+    padding-top: 7rem;
+    margin-bottom: 1.5rem!important;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
   .curso{
+    font-size: clamp(16px, 1vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
     width: 100%;
     padding-left: 1rem;
   }
   .escola{
+    font-size: clamp(16px, 2vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .curso-desc{
+    font-size: clamp(16px, 1vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .edutitle{
+    padding: 1rem;
+  }
+  .escola{
     width: 100%;
   }
+  .btn-group{
+    padding-left: 1rem;
+    width: 95%;
+  }
   /* Xp */
+
 }
 
 
@@ -465,11 +526,17 @@ body {
     padding-top: 0rem;
     padding: 0rem;
   }
+  .introdesc{
+    font-size: clamp(16px, 1vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+  } 
   .prog{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .descintro{
-    font-size: 1.25rem;
+    font-size: clamp(20px, 6vw, 23px);
+    font-weight: 600;
   }
   /* Home */
   
@@ -482,6 +549,19 @@ body {
   }
   .titleabout{
     margin-top: 1rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
+  .about {
+    padding-top: 4rem;
+  }
+  .textabout{
+    padding-top: 1rem;
+    font-size: clamp(16px, 1vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
   }
   /* About */
 
@@ -492,22 +572,63 @@ body {
   .curso-desc {
     margin-bottom: 4rem;
   }
+  .titletech{
+    padding-top: 7rem;
+    margin-bottom: 1.5rem!important;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
   /* Tech */
 
   /* Xp */
+  .titlexp{
+    padding: 1rem;
+    padding-top: 7rem;
+    margin-bottom: 1.5rem!important;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
   .curso{
+    font-size: clamp(16px, 1vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
     width: 100%;
     padding-left: 1rem;
   }
   .escola{
+    font-size: clamp(16px, 2vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
     width: 100%;
+    padding-left: 1rem;
+  }
+  .curso-desc{
+    font-size: clamp(16px, 1vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .edutitle{
+    padding: 1rem;
+  }
+  .escola{
+    width: 100%;
+  }
+  .btn-group{
+    padding-left: 1rem;
+    width: 95%;
   }
   /* Xp */
 
 }
 
 
-@media screen and (min-width: 431px) and (max-width: 600px){  
+@media screen and (min-width: 376px) and (max-width: 430px){  
   
   /* Navbar header */
   .float-text{
@@ -531,11 +652,17 @@ body {
     padding-top: 0rem;
     padding: 0rem;
   }
+  .introdesc{
+    font-size: clamp(16px, 1vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+  } 
   .prog{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .descintro{
-    font-size: 1.25rem;
+    font-size: clamp(20px, 6vw, 23px);
+    font-weight: 600;
   }
   /* Home */
   
@@ -548,6 +675,19 @@ body {
   }
   .titleabout{
     margin-top: 1rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
+  .about {
+    padding-top: 4rem;
+  }
+  .textabout{
+    padding-top: 1rem;
+    font-size: clamp(16px, 1vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
   }
   /* About */
 
@@ -558,15 +698,56 @@ body {
   .curso-desc {
     margin-bottom: 4rem;
   }
+  .titletech{
+    padding-top: 7rem;    
+    margin-bottom: 1.5rem!important;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
   /* Tech */
 
   /* Xp */
+  .titlexp{
+    padding: 1rem;
+    padding-top: 7rem;
+    margin-bottom: 1.5rem!important;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
   .curso{
+    font-size: clamp(16px, 1vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
     width: 100%;
     padding-left: 1rem;
   }
   .escola{
+    font-size: clamp(16px, 2vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
     width: 100%;
+    padding-left: 1rem;
+  }
+  .curso-desc{
+    font-size: clamp(16px, 2vw, 21px);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .edutitle{
+    padding: 1rem;
+  }
+  .escola{
+    width: 100%;
+  }
+  .btn-group{
+    padding-left: 1rem;
+    width: 95%;
   }
   /* Xp */
 
