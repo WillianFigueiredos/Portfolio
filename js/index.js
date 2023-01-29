@@ -30,3 +30,12 @@ document.getElementById("education-btn").addEventListener("click", function() {
 
   
   
+  window.onscroll = function() {
+    var scroll = document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var progress = (scroll / height) * 100;
+    document.querySelector('.progress-bar').style.width = progress + '%';
+  };
+
+
+  
