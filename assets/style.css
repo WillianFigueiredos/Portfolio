@@ -120,6 +120,8 @@ body {
 }
 
 .homescroll a {
+  position: relative;
+  top:0rem;
   text-decoration: none;
   color: var(--eerie-black);
   display: flex;
