@@ -29,15 +29,12 @@ document.getElementById("education-btn").addEventListener("click", function() {
 
 
   
-  
-  window.onscroll = function() {
-    var scroll = document.documentElement.scrollTop;
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  window.addEventListener('scroll', function() {
+    var scroll = window.pageYOffset;
+    var height = document.body.scrollHeight - window.innerHeight;
     var progress = (scroll / height) * 100;
     document.querySelector('.progress-bar').style.width = progress + '%';
-  };
-
-
+    });
 
   const navbar = document.querySelector(".navbar");
   const navLinks = document.querySelectorAll(".nav-link");
