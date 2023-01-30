@@ -38,4 +38,17 @@ document.getElementById("education-btn").addEventListener("click", function() {
   };
 
 
+
+  const navbar = document.querySelector(".navbar");
+  const navLinks = document.querySelectorAll(".nav-link");
+  
+  window.addEventListener("scroll", function() {
+    if (window.pageYOffset > 0) {
+      navbar.classList.add("scrolled");
+      navLinks.forEach(link => link.classList.add("color"));
+    } else {
+      navbar.classList.remove("scrolled");
+      navLinks.forEach(link => link.classList.remove("color"));
+    }
+  });
   

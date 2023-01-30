@@ -42,6 +42,9 @@ body {
 /* RESET*/
 
 /* Navbar header */
+.animate__fadeInDown{
+  animation-duration: 2s;
+}
 .middle {
   position: absolute;
   top: 50%;
@@ -95,7 +98,7 @@ body {
 }
 .progress-bar {
   position: relative;
-  bottom: 35px;
+  top: 40px;
   left: 0;
   width: 0%;
   height: 5px;
@@ -112,6 +115,14 @@ body {
   height: 75px;
   background-color:transparent;
   z-index: 1000;
+  margin: 0! important;
+}
+.navbar.scrolled {
+  background-color: var(--eerie-black);
+  opacity: 0.9;
+}
+.nav-link.color {
+  color: var(--light) !important;
 }
 .navbar-nav{
   padding-right: 6rem;
@@ -921,3 +932,5 @@ body {
   }
   /* Xp */  
 }
+
+
