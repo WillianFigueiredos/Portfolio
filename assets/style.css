@@ -493,7 +493,9 @@ body {
 }
 /* Text-Float */
 
-
+.contato{
+  padding: 1rem;
+}
 
 /* Media Queries */
 @media screen and (max-width: 320px) {
