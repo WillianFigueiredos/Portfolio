@@ -52,3 +52,23 @@ document.getElementById("education-btn").addEventListener("click", function() {
     }
   });
   
+  
+  window.onscroll = function() {
+    const header = document.querySelector('.namehearder');
+    if (window.pageYOffset > 50) {
+      header.style.color = 'white';
+    } else {
+      header.style.color = 'var(--eerie-black)';
+    }
+  };
+  
+
+
+
+
+
+
+
+
+
+
