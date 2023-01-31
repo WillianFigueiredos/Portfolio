@@ -508,7 +508,7 @@ body {
 .contact-inner-text{
   position: relative;
   padding: 25px 30px;
-  border: 1px solid rgb(74 66 91);
+  border: 1px solid var(--eerie-black);
   margin-bottom: 20px;
 }
 
