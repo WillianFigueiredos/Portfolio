@@ -150,8 +150,6 @@ body {
 .namehearder{
   color: var(--eerie-black);
 }
-
-
 /* Navbar header */
 
 /* Home */
@@ -494,8 +492,24 @@ body {
 }
 /* Text-Float */
 
-.contato{
-  padding: 1rem;
+.page-footer img {
+  display: block;
+  width: 250px;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  float: right;
+  right: 0;
+  bottom: 5rem;
+  z-index: -9999;
+  bottom: 1rem;
+}
+
+.contact-inner-text{
+  position: relative;
+  padding: 25px 30px;
+  border: 1px solid rgb(74 66 91);
+  margin-bottom: 20px;
 }
 
 /* Media Queries */
@@ -886,7 +900,7 @@ body {
 
   /* Xp */
   .titlexp{
-    padding: 1rem;
+    padding: 0.85rem;
     padding-top: 7rem;
     margin-bottom: 1.5rem!important;
     font-size: 2.25rem;
@@ -897,19 +911,19 @@ body {
     font-size: clamp(16px, 1vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 0.65rem;
   }
   .escola{
     font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 0.65rem;
   }
   .curso-desc{
     font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 0.65rem;
   }
   .edutitle{
     padding: 1rem;
@@ -918,7 +932,7 @@ body {
     width: 100%;
   }
   .btn-group{
-    padding-left: 1rem;
+    padding-left: 0.65rem;
     width: 95%;
   }
   /* Xp */  

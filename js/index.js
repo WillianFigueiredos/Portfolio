@@ -1,4 +1,8 @@
 
+
+
+
+
 document.getElementById("drop").addEventListener("click", function(){
     $("#myModal").modal("show");
 });
@@ -36,6 +40,11 @@ document.getElementById("education-btn").addEventListener("click", function() {
     document.querySelector('.progress-bar').style.width = progress + '%';
     });
 
+
+
+
+
+    
   const navbar = document.querySelector(".navbar");
   const navLinks = document.querySelectorAll(".nav-link");
   
@@ -59,7 +68,6 @@ document.getElementById("education-btn").addEventListener("click", function() {
     }
   };
   
-
 
 
 
