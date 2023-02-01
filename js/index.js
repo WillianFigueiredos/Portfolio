@@ -106,10 +106,10 @@ ScrollReveal().reveal(".slide-right", {
   reset      : true,
   scale      : 1,
   viewFactor : 0,
-  afterReveal  : reveal,
+  afterReveal  : revealChildren,
 }, 150);
   
-  var reveal = sr.reveal('.card-title, .card-text', {
+  var revealChildren = sr.reveal('.card-title, .card-text', {
   duration   : 500,
   scale      : 1,
   distance   : '20px',
