@@ -47,6 +47,13 @@ document.getElementById("education-btn").addEventListener("click", function() {
   });
 /* NAVBAR HEADER LINKS */
 
+/* NAVBAR HEADER LINKS */
+
+
+
+/* NAVBAR HEADER LINKS */
+
+
 /* NAVBAR HEADER NAME*/
   window.onscroll = function() {
     const header = document.querySelector('.namehearder');
@@ -74,3 +81,41 @@ document.addEventListener('DOMContentLoaded', function () {
   }).mount( window.splide.Extensions );
 });
 /* CONTATO FOOTER CARROUSEL */
+
+
+ScrollReveal().reveal(".fade-in", {
+  duration: 2000,
+  move: 0
+});
+
+ScrollReveal().reveal(".slide-right", {
+  duration: 2000,
+  origin: "left",
+  distance: "300px",
+  easing: "ease-in-out"
+});
+
+(function scrollReveal() {
+  window.sr = ScrollReveal();
+  
+  sr.reveal('.card-box', {
+  duration   : 600,
+  distance   : '20px',
+  easing     : 'ease-out',
+  origin     : 'bottom',
+  reset      : true,
+  scale      : 1,
+  viewFactor : 0,
+  afterReveal  : reveal,
+}, 150);
+  
+  var reveal = sr.reveal('.card-title, .card-text', {
+  duration   : 500,
+  scale      : 1,
+  distance   : '20px',
+  origin     : 'bottom',
+  reset      : true,
+  easing     : 'ease-out',
+  viewFactor : 1,
+}, 75);
+})();
