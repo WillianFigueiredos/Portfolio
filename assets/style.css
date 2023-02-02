@@ -43,9 +43,6 @@ body {
 
 
 /* NAVBAR HEADER */
-.modal {
-  width: auto;
-}
 .modal-header .btn-close {
   margin-right: 0.8rem;
   border: 1px solid var(--eerie-black);
@@ -68,6 +65,7 @@ body {
 .modal-content {
   width: auto;
   font-size: 0.9rem;
+  background-color: var(--light)!important;
 }
 .text {
   display: flex;
