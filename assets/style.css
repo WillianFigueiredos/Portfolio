@@ -323,7 +323,8 @@ body {
 
 .cardcontainer:hover > :not(:hover){
   opacity: 0.4;
-  trasnform: scale(0.9);
+  transform: scale(.95);
+  transition: 0.5s ease-in-out;
 }
 .card-title{
   color: var(--eerie-black);
