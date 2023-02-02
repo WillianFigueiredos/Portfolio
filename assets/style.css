@@ -255,7 +255,8 @@ body {
 
 /* TECH*/
 .titletech{
-  padding-top: 3rem;
+  padding-top: 7rem;
+  padding-bottom: 1.5rem;
   text-transform: uppercase;
   letter-spacing: .05em;
   font-size: 2rem;
@@ -320,10 +321,8 @@ body {
   border-color: var(--eerie-black);
   cursor: pointer;
 }
-
 .cardcontainer:hover > :not(:hover){
   opacity: 0.4;
-  transform: scale(.95);
   transition: 0.5s ease-in-out;
 }
 .card-title{
@@ -334,7 +333,8 @@ body {
   letter-spacing: 0.2rem;
 }
 .projdesc{
-  padding-top: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
   text-transform: uppercase;
   letter-spacing: .05em;
   font-size: 2rem;
@@ -568,6 +568,7 @@ body {
 /* Media Queries */
 
 @media screen and (max-width: 320px) {
+
   /* Navbar header */
   .float-text{
     display:  none;
@@ -578,7 +579,7 @@ body {
   .middle {
     position: absolute;
     top: 50%;
-    left: -25%;
+    left: -23%;
     transform: translate(50%, -50%);
   }
   .text {
@@ -598,14 +599,14 @@ body {
   .btn-outline-dark{
     width: 170px!important;
   }
-  .titleintro{
-    padding-top: 3rem;
-  }
   .nameintro{
     text-transform: uppercase;
     line-height: 0.8em;
-    font-size: 2.8rem;
+    font-size: 3rem;
     letter-spacing: -2px;
+  }
+  .titleintro{
+    padding-top: 2rem;
   }
   .intro-name{
     padding-top: 0rem;
@@ -624,20 +625,17 @@ body {
   }
   .homescroll span{
     position: relative;
-    bottom: 4rem;
+    bottom: 2.5rem;
   }
   /* Home */
   
   /* About */
-  .picborder::after {
-    display: none;
-  }
   .about{
     padding: 0.85rem;
   }
   .titleabout{
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 2.5rem;
     font-weight: 600;
   }
@@ -659,25 +657,23 @@ body {
     margin-bottom: 4rem;
   }
   .titletech{
-    padding-top: 7rem;
-    margin-bottom: 1.5rem!important;
-    font-size: 2rem;
+    padding-top: 4rem;
+    font-size: 1.8rem;
     line-height: 2.5rem;
     font-weight: 600;
+    padding-bottom: 0rem;
   }
   .btns{
-    padding: 1rem;
-    width: auto;
+    padding: 0.8rem;
   }
-
   /* Tech */
 
   /* Xp */
   .titlexp{
-    padding: 0.8rem;
-    padding-top: 7rem;
-    margin-bottom: 1.5rem!important;
-    font-size: 2rem;
+    padding-left: 0.9rem;
+    padding-top: 6rem;
+    margin-bottom: 2.3rem!important;
+    font-size: 1.8rem;
     line-height: 2.5rem;
     font-weight: 600;
   }
@@ -685,46 +681,61 @@ body {
     font-size: clamp(16px, 1vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding: 0.8rem;
+    padding-left: 0.85rem;
   }
   .escola{
-    font-size: clamp(16px, 1vw, 21px);
+    font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding: 0.8rem;
+    padding-left: 0.85rem;
   }
   .curso-desc{
     font-size: clamp(16px, 1vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding: 0.8rem;
+    padding-left: 0.85rem;
   }
   .edutitle{
-    padding: 0.8rem;
+    padding-left: 0.85rem;
     font-size: 1.7rem;
   }
   .xptitle{
-    padding: 0.8rem;
+    padding-left: 0.85rem;
     font-size: 1.7rem;
   }
   .escola{
     width: 100%;
   }
   .btn-group{
-    padding: 0.8rem;
+    padding-left: 0.85rem;
     width: 95%;
   }
-  #experience-btn{
-    border-radius: none !important;
+  /* Xp */ 
+
+  /* Projetos */  
+  .projdesc {
+    padding-top: 3.2rem;
+    padding-bottom: 0.35rem;
+    font-weight: 600;
+    font-size: 1.8rem;
   }
-  #education-btn{
-    border-radius: none !important;
-  }
-  /* Xp */
+  /* Projetos */  
+
+
 
   .contato{
-    padding: 0.7rem;
+    padding: 0.9rem;
   }
+  .titlecontato {
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .contact-inner-text {
+    padding: 20px 15px;
+  }
+
 
 }
 
@@ -820,11 +831,10 @@ body {
   }
   .titletech{
     padding-top: 4rem;
-    padding-left: 0.1rem;
-    margin-bottom: 1.5rem!important;
     font-size: 2rem;
     line-height: 2.5rem;
     font-weight: 600;
+    padding-bottom: 0rem;
   }
   .btns{
     padding: 0.8rem;
@@ -834,8 +844,8 @@ body {
   /* Xp */
   .titlexp{
     padding-left: 0.9rem;
-    padding-top: 7rem;
-    margin-bottom: 1.5rem!important;
+    padding-top: 6rem;
+    margin-bottom: 2.3rem!important;
     font-size: 2rem;
     line-height: 2.5rem;
     font-weight: 600;
@@ -873,10 +883,25 @@ body {
     padding-left: 0.85rem;
     width: 95%;
   }
-  /* Xp */
-    .contato{
-      padding: 0.85rem;
-    }
+  /* Xp */ 
+
+  /* Projetos */  
+  .projdesc {
+    padding-top: 3.2rem;
+    padding-bottom: 0.35rem;
+    font-weight: 600;
+  }
+  /* Projetos */  
+
+  .contato{
+    padding: 0.9rem;
+  }
+  .titlecontato {
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: 2rem;
+    font-weight: 600;
+  }
 
 }
 
@@ -973,20 +998,20 @@ body {
     margin-bottom: 4rem;
   }
   .titletech{
-    padding-top: 4rem;   
-    margin-bottom: 1.5rem!important;
-    font-size: 2.25rem;
+    padding-top: 4rem;
+    font-size: 2rem;
     line-height: 2.5rem;
     font-weight: 600;
+    padding-bottom: 0.4rem;
   }
   /* Tech */
 
   /* Xp */
   .titlexp{
-    padding-left: 0.7rem;
-    padding-top: 7rem;
-    margin-bottom: 1.5rem!important;
-    font-size: 2.25rem;
+    padding-left: 0.9rem;
+    padding-top: 6rem;
+    margin-bottom: 2.9rem!important;
+    font-size: 2rem;
     line-height: 2.5rem;
     font-weight: 600;
   }
@@ -1023,8 +1048,23 @@ body {
   }
   /* Xp */  
 
+  /* Projetos */  
+  .projdesc {
+    padding-top: 3.2rem;
+    padding-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  /* Projetos */  
+
+
   .contato{
     padding: 0.9rem;
+  }
+  .titlecontato {
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: 2rem;
+    font-weight: 600;
   }
 }
 

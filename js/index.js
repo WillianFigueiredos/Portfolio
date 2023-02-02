@@ -76,12 +76,6 @@ document.addEventListener('DOMContentLoaded', function () {
 /* CONTATO FOOTER CARROUSEL */
 
 
-ScrollReveal().reveal(".fade-in", {
-  duration: 2000,
-  move: 0,
-  reset: true,
-});
-
 ScrollReveal().reveal(".slide-right", {
   delay: 75,
   duration: 1500,
