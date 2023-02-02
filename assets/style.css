@@ -43,6 +43,45 @@ body {
 
 
 /* NAVBAR HEADER */
+.modal {
+  width: auto;
+}
+.modal-header .btn-close {
+  margin-right: 0.8rem;
+  border: 1px solid var(--eerie-black);
+  border-radius: 50%;
+  background-color: var(--white);
+}
+.slide-in-right {
+  animation: slide-in-right 0.8s forwards;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+.modal-content {
+  width: auto;
+  font-size: 0.9rem;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.521);
+  font-weight: 300;
+  padding-bottom: 0.7rem;
+}
+#whatsmodal {
+  font-size: 1.1rem;
+  color: var(--kelly-green);
+}
+
 .animate__fadeInDown{
   animation-duration: 2s;
 }
