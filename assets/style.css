@@ -318,6 +318,12 @@ body {
   box-shadow: -0.5rem 0.5rem 0.5rem rgb(0 0 0 / 50%);
   background-color: var(--sonic-silver)!important;
   border-color: var(--eerie-black);
+  cursor: pointer;
+}
+
+.cardcontainer:hover > :not(:hover){
+  opacity: 0.4;
+  trasnform: scale(0.9);
 }
 .card-title{
   color: var(--eerie-black);
@@ -438,7 +444,7 @@ body {
   position: fixed;
   top: 70%;
 }
-.social-media i{
+.social-media img{
   font-size: 1rem;
   color: var(--eerie-black); 
 }
@@ -594,7 +600,7 @@ body {
   .nameintro{
     text-transform: uppercase;
     line-height: 0.8em;
-    font-size: 3rem;
+    font-size: 2.8rem;
     letter-spacing: -2px;
   }
   .intro-name{
@@ -627,7 +633,7 @@ body {
   }
   .titleabout{
     margin-top: 1rem;
-    font-size: 2.25rem;
+    font-size: 2rem;
     line-height: 2.5rem;
     font-weight: 600;
   }
@@ -651,18 +657,23 @@ body {
   .titletech{
     padding-top: 7rem;
     margin-bottom: 1.5rem!important;
-    font-size: 2.25rem;
+    font-size: 2rem;
     line-height: 2.5rem;
     font-weight: 600;
   }
+  .btns{
+    padding: 1rem;
+    width: auto;
+  }
+
   /* Tech */
 
   /* Xp */
   .titlexp{
-    padding: 1rem;
+    padding: 0.8rem;
     padding-top: 7rem;
     margin-bottom: 1.5rem!important;
-    font-size: 2.25rem;
+    font-size: 2rem;
     line-height: 2.5rem;
     font-weight: 600;
   }
@@ -670,29 +681,40 @@ body {
     font-size: clamp(16px, 1vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 1rem;
+    padding: 0.8rem;
   }
   .escola{
-    font-size: clamp(16px, 2vw, 21px);
+    font-size: clamp(16px, 1vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 1rem;
+    padding: 0.8rem;
   }
   .curso-desc{
     font-size: clamp(16px, 1vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 1rem;
+    padding: 0.8rem;
   }
   .edutitle{
-    padding: 1rem;
+    padding: 0.7rem;
+    font-size: 1.7rem;
+  }
+  .xptitle{
+    padding: 0.8rem;
+    font-size: 1.7rem;
   }
   .escola{
     width: 100%;
   }
   .btn-group{
-    padding-left: 1rem;
+    padding: 0.8rem;
     width: 95%;
+  }
+  #experience-btn{
+    border-radius: none !important;
+  }
+  #education-btn{
+    border-radius: none !important;
   }
   /* Xp */
 
@@ -802,7 +824,7 @@ body {
 
   /* Xp */
   .titlexp{
-    padding: 1rem;
+    padding-left: 0.9rem;
     padding-top: 7rem;
     margin-bottom: 1.5rem!important;
     font-size: 2.25rem;
@@ -813,28 +835,28 @@ body {
     font-size: clamp(16px, 1vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 0.9rem;
   }
   .escola{
     font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 0.9rem;
   }
   .curso-desc{
     font-size: clamp(16px, 1vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 0.9rem;
   }
   .edutitle{
-    padding: 1rem;
+    padding-left: 0.9rem;
   }
   .escola{
     width: 100%;
   }
   .btn-group{
-    padding-left: 1rem;
+    padding-left: 0.9rem;
     width: 95%;
   }
   /* Xp */

@@ -47,13 +47,6 @@ document.getElementById("education-btn").addEventListener("click", function() {
   });
 /* NAVBAR HEADER LINKS */
 
-/* NAVBAR HEADER LINKS */
-
-
-
-/* NAVBAR HEADER LINKS */
-
-
 /* NAVBAR HEADER NAME*/
   window.onscroll = function() {
     const header = document.querySelector('.namehearder');
