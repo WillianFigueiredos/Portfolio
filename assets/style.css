@@ -89,6 +89,7 @@ body {
 .navl-list{
   padding: 0;
 }
+
 .animate__fadeInDown{
   animation-duration: 2s;
 }
@@ -227,6 +228,21 @@ body {
 .intro-name{
   padding-top: 6.5rem;
 }
+.teste::after{
+  position: relative;
+  border: 2px solid var(--eerie-black);
+  top: 20px;
+  left: 20px;
+  z-index: -1;
+}
+.teste::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
 .prog{
   color: var(--eerie-black);
   opacity: 0.5;
@@ -321,6 +337,48 @@ body {
 
 
 /* XP */
+#education::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 230px;
+  background: rgb(0, 0, 0);
+  top:370px;
+  bottom: 20px;
+  margin-left:10px;
+}
+.divider::before {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 345px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(83 75 105);
+
+}
+.divider-02::before {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 620px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(83 75 105);
+}
+.curso-desc::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 120px;
+  background: rgb(0, 0, 0);
+  top:656px;
+  bottom: 20px;
+  margin-left:22px;
+}
+
 .curso-desc {
   display: flex;
   margin-bottom: 8rem;
@@ -636,6 +694,46 @@ body {
     padding-left: 0.85rem;
     width: 95%;
   }
+  #education::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 365px;
+    background: rgb(0, 0, 0);
+    top:515px;
+    bottom: 20px;
+    margin-left:21px;
+  }
+  .divider::before {
+    content: "";
+    position: absolute;
+    left: 24px;
+    top: 484px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(83 75 105);
+  }
+  .divider-02::before {
+    content: "";
+    position: absolute;
+    left: 24.5px;
+    top: 895px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(83 75 105);
+  }
+  .curso-desc::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 320px;
+    background: rgb(0, 0, 0);
+    top:925px;
+    bottom: 20px;
+    margin-left:20px;
+  }
   /* Xp */ 
 
   /* Projetos */  
@@ -805,6 +903,46 @@ body {
     padding-left: 0.85rem;
     width: 95%;
   }
+  #education::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 365px;
+    background: rgb(0, 0, 0);
+    top:515px;
+    bottom: 20px;
+    margin-left:21px;
+  }
+  .divider::before {
+    content: "";
+    position: absolute;
+    left: 24px;
+    top: 484px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(83 75 105);
+  }
+  .divider-02::before {
+    content: "";
+    position: absolute;
+    left: 24.5px;
+    top: 895px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(83 75 105);
+  }
+  .curso-desc::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 320px;
+    background: rgb(0, 0, 0);
+    top:925px;
+    bottom: 20px;
+    margin-left:20px;
+  }
   /* Xp */ 
 
   /* Projetos */  
@@ -966,6 +1104,46 @@ body {
   .btn-group{
     padding-left: 0.7rem;
     width: 95%;
+  }
+  #education::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 365px;
+    background: rgb(0, 0, 0);
+    top:515px;
+    bottom: 20px;
+    margin-left:21px;
+  }
+  .divider::before {
+    content: "";
+    position: absolute;
+    left: 24px;
+    top: 484px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(83 75 105);
+  }
+  .divider-02::before {
+    content: "";
+    position: absolute;
+    left: 24.5px;
+    top: 895px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(83 75 105);
+  }
+  .curso-desc::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 210px;
+    background: rgb(0, 0, 0);
+    top:925px;
+    bottom: 20px;
+    margin-left:23px;
   }
   /* Xp */  
 
