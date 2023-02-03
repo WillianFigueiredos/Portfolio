@@ -345,12 +345,12 @@ body {
   background: rgb(0, 0, 0);
   top:370px;
   bottom: 20px;
-  margin-left:10px;
+  margin-left:403px;
 }
 .divider::before {
   content: "";
   position: absolute;
-  left: 14px;
+  left: 406px;
   top: 345px;
   height: 20px;
   width: 20px;
@@ -361,7 +361,7 @@ body {
 .divider-02::before {
   content: "";
   position: absolute;
-  left: 14px;
+  left: 406px;
   top: 620px;
   height: 20px;
   width: 20px;
@@ -376,7 +376,7 @@ body {
   background: rgb(0, 0, 0);
   top:656px;
   bottom: 20px;
-  margin-left:22px;
+  margin-left:415px;
 }
 
 .curso-desc {
@@ -385,7 +385,6 @@ body {
 }
 .escola {
   width: 30%;
-  border-right: 1.5px dashed var(--davys-gray);
 }
 .curso {
   width: 50%;
