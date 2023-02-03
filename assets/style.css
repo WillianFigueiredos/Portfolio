@@ -63,17 +63,23 @@ body {
 .modal-content {
   width: auto;
   font-size: 1rem;
-  background-color: var(--eerie-black)!important;
+  background-color: var(--eerie-black);
 }
+
 .text-modal{
   display: flex;
   flex-direction: column;
-  text-decoration: none;
+  text-decoration: none!important;
   align-items: center;
   color: var(--light);
   font-weight: 500;
   font-size: 1.5rem;
   padding-top: 2.7rem;
+}
+
+.navl-list{
+  list-style: none;
+  opacity: none!important;
 }
 .text-modal:hover{
   color: var(--light);
@@ -638,7 +644,6 @@ body {
     position: relative;
     bottom: 2.5rem;
   }
-  .homepcman{display: none;}
   /* Home */
   
   /* About */
@@ -868,7 +873,6 @@ body {
     position: relative;
     bottom: 2.5rem;
   }
-  .homepcman{display: none;}
   /* Home */
   
   /* About */
@@ -1093,7 +1097,6 @@ body {
     position: relative;
     bottom: 2.5rem;
   }
-  .homepcman{display: none;}
   /* Home */
   
   /* About */
