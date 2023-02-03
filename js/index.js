@@ -50,7 +50,7 @@ document.getElementById("education-btn").addEventListener("click", function() {
 /* NAVBAR HEADER NAME*/
   window.onscroll = function() {
     const header = document.querySelector('.namehearder');
-    if (window.pageYOffset > 50) {
+    if (window.pageYOffset > 0) {
       header.style.color = 'white';
     } else {
       header.style.color = 'var(--eerie-black)';
@@ -113,6 +113,5 @@ ScrollReveal().reveal(".slide-right", {
   viewFactor : 1,
 }, -75);
 })();
-
 
 
