@@ -444,7 +444,7 @@ body {
   content: "";
   position: absolute;
   width: 2px;
-  height: 120px;
+  height: 250px;
   background: rgb(0, 0, 0);
   top: 656px;
   bottom: 20px;
@@ -598,7 +598,8 @@ body {
 
 /* CONTATO FOOTER */
 .contato {
-  PADding: 1.1rem;
+  margin-top: 5rem;
+  padding: 1.1rem;
 }
 
 .page-footer img {
@@ -630,39 +631,6 @@ body {
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-#imgcarouseltag img {
-  aspect-ratio: 3/2;
-  object-fit: contain;
-  mix-blend-mode: color-burn;
-  width: 100%;
-}
-
-#carouseltag:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 20%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, rgb(225, 223, 221), rgb(225 223 221 / 93%) 50%, rgb(225 255 221 / 0%));
-  z-index: 10;
-}
-
-#carouseltag:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 20%;
-  height: 100%;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, rgb(225, 223, 221), rgb(225 223 221 / 93%) 50%, rgb(225 255 221 / 0%));
-  z-index: 10;
 }
 
 /* CONTATO FOOTER */
@@ -797,6 +765,11 @@ body {
 
   .curso-desc {
     margin-bottom: 4rem;
+  }
+
+  .cardtech{
+    margin: 0 auto;
+    width: 90%;
   }
 
   .titletech {
@@ -1073,6 +1046,11 @@ body {
     margin-bottom: 4rem;
   }
 
+  .cardtech{
+    margin: 0 auto;
+    width: 90%;
+  }
+
   .titletech {
     padding-top: 4rem;
     font-size: 2rem;
@@ -1345,6 +1323,11 @@ body {
     margin-bottom: 4rem;
   }
 
+  .cardtech{
+    margin: 0 auto;
+    width: 90%;
+  }
+
   .titletech {
     padding-top: 4rem;
     font-size: 2rem;
@@ -1422,7 +1405,7 @@ body {
     background: rgb(0, 0, 0);
     top: 929px;
     bottom: 20px;
-    margin-left: 21.5px;
+    margin-left: 22px;
   }
 
   .divider::before {
