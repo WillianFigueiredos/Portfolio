@@ -79,17 +79,9 @@ body {
   color: var(--light);
   opacity: 0.5;
 }
-#whatsmodal {
-  font-size: 1.1rem;
-  color: var(--kelly-green);
-}
-.modal-footer span{
-  color: var(--light);
-}
 .navl-list{
   padding: 0;
 }
-
 .animate__fadeInDown{
   animation-duration: 2s;
 }
@@ -241,7 +233,6 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-
 }
 .prog{
   color: var(--eerie-black);
@@ -293,6 +284,14 @@ body {
   --bs-btn-hover-bg: var(--davys-gray)!important;
   opacity: 0.5;
 }
+.homepcman{
+  position: relative;
+  top: 4.5rem;
+  left: 55rem;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
 /* HOME */
 
 
@@ -311,6 +310,15 @@ body {
   letter-spacing: .05em;
   font-size: 2rem;
   font-weight: 600;
+}
+.col-lg-4 span:first-child {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+.img-fluid {
+  position: relative;
 }
 /* ABOUT*/
 
@@ -368,6 +376,16 @@ body {
   border-radius: 50%;
   border: 2px solid rgb(83 75 105);
 }
+.divider-03::before {
+  content: "";
+  position: absolute;
+  left: 406px;
+  top: 620px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(83 75 105);
+}
 .curso-desc::after {
   content: "";
   position: absolute;
@@ -396,6 +414,16 @@ body {
   letter-spacing: .05em;
   font-size: 2rem;
   font-weight: 600;
+}
+#experience::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 230px;
+  background: rgb(0, 0, 0);
+  top:370px;
+  bottom: 20px;
+  margin-left:403px;
 }
 #experience-btn, #education-btn {
   --bs-btn-color: var(--eerie-black)!important;
@@ -610,6 +638,7 @@ body {
     position: relative;
     bottom: 2.5rem;
   }
+  .homepcman{display: none;}
   /* Home */
   
   /* About */
@@ -703,6 +732,16 @@ body {
     bottom: 20px;
     margin-left:21px;
   }
+  .curso-desc::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 320px;
+    background: rgb(0, 0, 0);
+    top:925px;
+    bottom: 20px;
+    margin-left:20px;
+  }
   .divider::before {
     content: "";
     position: absolute;
@@ -723,15 +762,25 @@ body {
     border-radius: 50%;
     border: 2px solid rgb(83 75 105);
   }
-  .curso-desc::after {
+  #experience::after {
     content: "";
     position: absolute;
     width: 2px;
-    height: 320px;
+    height: 365px;
     background: rgb(0, 0, 0);
-    top:925px;
+    top:515px;
     bottom: 20px;
-    margin-left:20px;
+    margin-left:21px;
+  }
+  .divider-03::before {
+    content: "";
+    position: absolute;
+    left: 406px;
+    top: 620px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(83 75 105);
   }
   /* Xp */ 
 
@@ -819,6 +868,7 @@ body {
     position: relative;
     bottom: 2.5rem;
   }
+  .homepcman{display: none;}
   /* Home */
   
   /* About */
@@ -912,6 +962,16 @@ body {
     bottom: 20px;
     margin-left:21px;
   }
+  .curso-desc::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 320px;
+    background: rgb(0, 0, 0);
+    top:925px;
+    bottom: 20px;
+    margin-left:20px;
+  }
   .divider::before {
     content: "";
     position: absolute;
@@ -932,15 +992,25 @@ body {
     border-radius: 50%;
     border: 2px solid rgb(83 75 105);
   }
-  .curso-desc::after {
+  #experience::after {
     content: "";
     position: absolute;
     width: 2px;
-    height: 320px;
+    height: 365px;
     background: rgb(0, 0, 0);
-    top:925px;
+    top:515px;
     bottom: 20px;
-    margin-left:20px;
+    margin-left:21px;
+  }
+  .divider-03::before {
+    content: "";
+    position: absolute;
+    left: 406px;
+    top: 620px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(83 75 105);
   }
   /* Xp */ 
 
@@ -1023,6 +1093,7 @@ body {
     position: relative;
     bottom: 2.5rem;
   }
+  .homepcman{display: none;}
   /* Home */
   
   /* About */
@@ -1114,6 +1185,16 @@ body {
     bottom: 20px;
     margin-left:21px;
   }
+  .curso-desc::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 320px;
+    background: rgb(0, 0, 0);
+    top:925px;
+    bottom: 20px;
+    margin-left:20px;
+  }
   .divider::before {
     content: "";
     position: absolute;
@@ -1134,15 +1215,25 @@ body {
     border-radius: 50%;
     border: 2px solid rgb(83 75 105);
   }
-  .curso-desc::after {
+  #experience::after {
     content: "";
     position: absolute;
     width: 2px;
-    height: 210px;
+    height: 365px;
     background: rgb(0, 0, 0);
-    top:925px;
+    top:515px;
     bottom: 20px;
-    margin-left:23px;
+    margin-left:21px;
+  }
+  .divider-03::before {
+    content: "";
+    position: absolute;
+    left: 406px;
+    top: 620px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(83 75 105);
   }
   /* Xp */  
 
