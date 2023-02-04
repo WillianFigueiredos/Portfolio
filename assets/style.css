@@ -68,7 +68,6 @@ body {
 }
 
 .modal-content {
-  width: auto;
   font-size: 1rem;
   background-color: var(--eerie-black);
 }
@@ -80,7 +79,7 @@ body {
   align-items: center;
   color: var(--light);
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-top: 1rem;
 }
 
@@ -590,10 +589,9 @@ body {
 
 .iconscardproj img {
   color: var(--eerie-black) !important;
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin: 0.1rem;
 }
-
 /* PROJETOS */
 
 /* CONTATO FOOTER */

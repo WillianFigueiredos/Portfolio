@@ -85,38 +85,13 @@ ScrollReveal().reveal(".slide-right", {
   reset: true,
 });
 
-(function scrollReveal() {
-  window.sr = ScrollReveal();
+ScrollReveal().reveal(".scaleUp", {
+  duration: 2000,
+  scale: 0.85,
+  reset: true,
+});
 
-  sr.reveal(
-    ".card-box",
-    {
-      duration: 600,
-      distance: "5px",
-      easing: "ease-out",
-      origin: "bottom",
-      reset: true,
-      scale: 1,
-      viewFactor: 0,
-      afterReveal: revealChildren,
-    },
-    -150
-  );
 
-  var revealChildren = sr.reveal(
-    ".card-title, .card-text",
-    {
-      duration: 500,
-      scale: 1,
-      distance: "5px",
-      origin: "bottom",
-      reset: true,
-      easing: "ease-out",
-      viewFactor: 1,
-    },
-    -75
-  );
-})();
 
 var linkSobre = document.querySelector('.modal .navl-list a[href="#about"]');
 var linkTech = document.querySelector('.modal .navl-list a[href="#tech"]');
