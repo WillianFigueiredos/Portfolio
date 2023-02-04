@@ -182,3 +182,7 @@ linkresume.addEventListener("click", function (event) {
   });
   $("#myModal").modal("hide");
 });
+
+
+
+
