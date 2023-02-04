@@ -604,13 +604,11 @@ body {
 
 .page-footer img {
   display: block;
-  width: 250px;
+  width: 200px;
   height: auto;
   max-width: 100%;
   position: relative;
-  float: right;
   right: 0;
-  z-index: -9999;
 }
 
 .contact-inner-text {
@@ -629,8 +627,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 /* CONTATO FOOTER */
