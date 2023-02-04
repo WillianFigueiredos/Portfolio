@@ -591,9 +591,8 @@ body {
 
 .iconscardproj img {
   color: var(--eerie-black) !important;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0.1rem;
-  opacity: 0.4;
 }
 /* PROJETOS */
 

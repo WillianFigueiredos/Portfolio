@@ -85,13 +85,6 @@ ScrollReveal().reveal(".slide-right", {
   reset: true,
 });
 
-ScrollReveal().reveal(".scaleUp", {
-  duration: 2000,
-  scale: 0.85,
-  reset: true,
-});
-
-
 
 var linkSobre = document.querySelector('.modal .navl-list a[href="#about"]');
 var linkTech = document.querySelector('.modal .navl-list a[href="#tech"]');
