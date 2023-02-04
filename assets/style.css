@@ -584,7 +584,6 @@ body {
   font-size: clamp(16px, 1vw, 21px);
   line-height: 1.5;
   letter-spacing: 0.02rem;
-  text-align: justify;
 }
 
 .projdesc {
@@ -873,7 +872,7 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 465px;
+    height: 560px;
     background: rgb(0, 0, 0);
     top: 530px;
     bottom: 20px;
@@ -886,7 +885,7 @@ body {
     width: 2px;
     height: 110px;
     background: rgb(0, 0, 0);
-    top: 1040px;
+    top: 1130px;
     bottom: 20px;
     margin-left: 22.5px;
   }
@@ -906,7 +905,7 @@ body {
     content: "";
     position: absolute;
     left: 24.5px;
-    top: 1010px;
+    top: 1100px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
