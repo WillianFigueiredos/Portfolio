@@ -231,7 +231,6 @@ body {
   min-height: 100%;
   min-height: 90vh;
   display: flex;
-  align-items: center;
   font-weight: 600;
 }
 
@@ -250,6 +249,7 @@ body {
   font-size: 2rem;
   font-weight: 400;
 }
+
 .introdesc{
   font-size: clamp(16px, 1vw, 21px);
   line-height: 1.5;
@@ -360,7 +360,6 @@ body {
   font-size: clamp(16px, 1vw, 21px);
   line-height: 1.5;
   letter-spacing: 0.02rem;
-  text-align: justify;
 }
 
 .titleabout {
@@ -419,18 +418,28 @@ body {
   content: "";
   position: absolute;
   width: 2px;
-  height: 230px;
+  height: 258px;
   background: rgb(0, 0, 0);
-  top: 370px;
+  top: 410px;
   bottom: 20px;
   margin-left: 403px;
+}
+.curso-desc::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 120px;
+  background: rgb(0, 0, 0);
+  top: 710px;
+  bottom: 20px;
+  margin-left: 414.5px;
 }
 
 .divider::before {
   content: "";
   position: absolute;
   left: 406px;
-  top: 345px;
+  top: 380px;
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -441,33 +450,11 @@ body {
   content: "";
   position: absolute;
   left: 406px;
-  top: 620px;
+  top: 680px;
   height: 20px;
   width: 20px;
   border-radius: 50%;
   border: 2px solid var(--davys-gray);
-}
-
-.divider-03::before {
-  content: "";
-  position: absolute;
-  left: 406px;
-  top: 620px;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  border: 2px solid var(--davys-gray);
-}
-
-.curso-desc::after {
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 250px;
-  background: rgb(0, 0, 0);
-  top: 656px;
-  bottom: 20px;
-  margin-left: 415px;
 }
 
 .curso-desc {
@@ -492,16 +479,6 @@ body {
   font-weight: 600;
 }
 
-#experience::after {
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 230px;
-  background: rgb(0, 0, 0);
-  top: 370px;
-  bottom: 20px;
-  margin-left: 403px;
-}
 
 #experience-btn,
 #education-btn {
@@ -847,7 +824,6 @@ body {
     font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
     padding-left: 0.7rem;
-    text-align: justify;
     padding-right: 1.4rem;
   }
 
@@ -872,9 +848,9 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 560px;
+    height: 390px;
     background: rgb(0, 0, 0);
-    top: 530px;
+    top: 505px;
     bottom: 20px;
     margin-left: 21px;
   }
@@ -885,7 +861,7 @@ body {
     width: 2px;
     height: 110px;
     background: rgb(0, 0, 0);
-    top: 1130px;
+    top: 944px;
     bottom: 20px;
     margin-left: 22.5px;
   }
@@ -894,7 +870,7 @@ body {
     content: "";
     position: absolute;
     left: 24px;
-    top: 499px;
+    top: 475px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -905,29 +881,7 @@ body {
     content: "";
     position: absolute;
     left: 24.5px;
-    top: 1100px;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: 2px solid var(--davys-gray);
-  }
-
-  #experience::after {
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 320px;
-    background: rgb(0, 0, 0);
-    top: 515px;
-    bottom: 20px;
-    margin-left: 21px;
-  }
-
-  .divider-03::before {
-    content: "";
-    position: absolute;
-    left: 5px;
-    top: 620px;
+    top: 910px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -1081,7 +1035,7 @@ body {
 
   .cardtech{
     margin: 0 auto;
-    width: 90%;
+    width: 95%;
   }
 
   .titletech {
@@ -1127,7 +1081,6 @@ body {
     font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
     padding-left: 0.7rem;
-    text-align: justify;
     padding-right: 1.4rem;
   }
 
@@ -1152,9 +1105,9 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 465px;
+    height: 390px;
     background: rgb(0, 0, 0);
-    top: 530px;
+    top: 488px;
     bottom: 20px;
     margin-left: 21px;
   }
@@ -1165,16 +1118,16 @@ body {
     width: 2px;
     height: 110px;
     background: rgb(0, 0, 0);
-    top: 1040px;
+    top:920px;
     bottom: 20px;
-    margin-left: 22.5px;
+    margin-left: 23px;
   }
 
   .divider::before {
     content: "";
     position: absolute;
     left: 24px;
-    top: 499px;
+    top: 455px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -1185,29 +1138,7 @@ body {
     content: "";
     position: absolute;
     left: 24.5px;
-    top: 1010px;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: 2px solid var(--davys-gray);
-  }
-
-  #experience::after {
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 320px;
-    background: rgb(0, 0, 0);
-    top: 515px;
-    bottom: 20px;
-    margin-left: 21px;
-  }
-
-  .divider-03::before {
-    content: "";
-    position: absolute;
-    left: 5px;
-    top: 620px;
+    top: 890px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -1400,7 +1331,6 @@ body {
     font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
     padding-left: 0.7rem;
-    text-align: justify;
     padding-right: 1.4rem;
   }
 
@@ -1425,9 +1355,9 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 410px;
+    height: 296px;
     background: rgb(0, 0, 0);
-    top: 530px;
+    top: 488px;
     bottom: 20px;
     margin-left: 21px;
   }
@@ -1438,7 +1368,7 @@ body {
     width: 2px;
     height: 110px;
     background: rgb(0, 0, 0);
-    top: 988px;
+    top:830px;
     bottom: 20px;
     margin-left: 23px;
   }
@@ -1447,7 +1377,7 @@ body {
     content: "";
     position: absolute;
     left: 24px;
-    top: 499px;
+    top: 455px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -1458,29 +1388,7 @@ body {
     content: "";
     position: absolute;
     left: 24.5px;
-    top: 954px;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: 2px solid var(--davys-gray);
-  }
-
-  #experience::after {
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 320px;
-    background: rgb(0, 0, 0);
-    top: 515px;
-    bottom: 20px;
-    margin-left: 21px;
-  }
-
-  .divider-03::before {
-    content: "";
-    position: absolute;
-    left: 5px;
-    top: 620px;
+    top: 798px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -1521,3 +1429,9 @@ body {
 
 
 
+
+
+
+
+
+ 
