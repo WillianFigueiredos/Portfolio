@@ -250,6 +250,11 @@ body {
   font-size: 2rem;
   font-weight: 400;
 }
+.introdesc{
+  font-size: clamp(16px, 1vw, 21px);
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+}
 
 .titleintro {
   padding-top: 0rem;
@@ -328,6 +333,8 @@ body {
   --bs-btn-color: var(--eerie-black) !important;
   --bs-btn-color: var(--eerie-black) !important;
   --bs-btn-border-color: var(--eerie-black) !important;
+  --bs-btn-active-color: var(--eerie-black) !important;
+  --bs-btn-hover-border-color: var(--light) !important;
 }
 
 .btn-outline-dark:hover {
@@ -347,6 +354,13 @@ body {
 
 .about-bg {
   background-color: var(--sonic-silver);
+}
+
+.textabout{
+  font-size: clamp(16px, 1vw, 21px);
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+  text-align: justify;
 }
 
 .titleabout {
@@ -373,11 +387,17 @@ body {
 /* TECH*/
 .titletech {
   padding-top: 7rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
   text-transform: uppercase;
   letter-spacing: .05em;
   font-size: 2rem;
   font-weight: 600;
+}
+
+.subtitletech{
+  font-size: clamp(16px, 1vw, 21px);
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
 }
 
 .tech-bg {
@@ -558,7 +578,13 @@ body {
   font-size: 1.5rem;
   font-family: 'Clash Display', sans-serif !important;
   letter-spacing: 0.2rem;
-  
+}
+
+.card-text {
+  font-size: clamp(16px, 1vw, 21px);
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+  text-align: justify;
 }
 
 .projdesc {
@@ -601,7 +627,12 @@ body {
   margin-top: 5rem;
   padding: 1.1rem;
 }
-
+.desctitlecontato{
+  font-size: clamp(16px, 1vw, 21px);
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+  text-align: justify;
+}
 .page-footer img {
   display: block;
   width: 200px;
@@ -790,10 +821,10 @@ body {
 
   /* Xp */
   .titlexp {
-    padding-left: 0.9rem;
+    padding-left: 0.7rem;
     padding-top: 6rem;
-    margin-bottom: 2.3rem !important;
-    font-size: 1.8rem;
+    margin-bottom: 2.9rem !important;
+    font-size: 2rem;
     line-height: 2.5rem;
     font-weight: 600;
   }
@@ -802,31 +833,31 @@ body {
     font-size: clamp(16px, 1vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 0.85rem;
+    padding-left: 0.7rem;
   }
 
   .escola {
     font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 0.85rem;
+    padding-left: 0.7rem;
+    
   }
 
   .curso-desc {
-    font-size: clamp(16px, 1vw, 21px);
+    font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
-    width: 100%;
-    padding-left: 0.85rem;
+    padding-left: 0.7rem;
+    text-align: justify;
+    padding-right: 1.4rem;
   }
 
   .edutitle {
-    padding-left: 0.85rem;
-    font-size: 1.7rem;
+    padding-left: 0.7rem;
   }
 
   .xptitle {
-    padding-left: 0.85rem;
-    font-size: 1.7rem;
+    padding-left: 0.7rem;
   }
 
   .escola {
@@ -834,7 +865,7 @@ body {
   }
 
   .btn-group {
-    padding-left: 0.85rem;
+    padding-left: 0.7rem;
     width: 95%;
   }
 
@@ -842,9 +873,9 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 365px;
+    height: 465px;
     background: rgb(0, 0, 0);
-    top: 515px;
+    top: 530px;
     bottom: 20px;
     margin-left: 21px;
   }
@@ -853,18 +884,18 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 320px;
+    height: 110px;
     background: rgb(0, 0, 0);
-    top: 929px;
+    top: 1040px;
     bottom: 20px;
-    margin-left: 20px;
+    margin-left: 22.5px;
   }
 
   .divider::before {
     content: "";
     position: absolute;
     left: 24px;
-    top: 484px;
+    top: 499px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -875,7 +906,7 @@ body {
     content: "";
     position: absolute;
     left: 24.5px;
-    top: 895px;
+    top: 1010px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -886,7 +917,7 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 365px;
+    height: 320px;
     background: rgb(0, 0, 0);
     top: 515px;
     bottom: 20px;
@@ -896,7 +927,7 @@ body {
   .divider-03::before {
     content: "";
     position: absolute;
-    left: 406px;
+    left: 5px;
     top: 620px;
     height: 20px;
     width: 20px;
@@ -913,6 +944,7 @@ body {
   }
 
   /* Xp */
+
 
   /* Projetos */
   .projdesc {
@@ -1071,7 +1103,7 @@ body {
   .titlexp {
     padding-left: 0.7rem;
     padding-top: 6rem;
-    margin-bottom: 2.3rem !important;
+    margin-bottom: 2.9rem !important;
     font-size: 2rem;
     line-height: 2.5rem;
     font-weight: 600;
@@ -1081,31 +1113,31 @@ body {
     font-size: clamp(16px, 1vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 0.85rem;
+    padding-left: 0.7rem;
   }
 
   .escola {
     font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
     width: 100%;
-    padding-left: 0.85rem;
+    padding-left: 0.7rem;
+    
   }
 
   .curso-desc {
-    font-size: clamp(16px, 1vw, 21px);
+    font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
-    width: 100%;
-    padding-left: 0.85rem;
+    padding-left: 0.7rem;
+    text-align: justify;
+    padding-right: 1.4rem;
   }
 
   .edutitle {
-    padding-left: 0.85rem;
-    font-size: 1.7rem;
+    padding-left: 0.7rem;
   }
 
   .xptitle {
-    padding-left: 0.85rem;
-    font-size: 1.7rem;
+    padding-left: 0.7rem;
   }
 
   .escola {
@@ -1113,7 +1145,7 @@ body {
   }
 
   .btn-group {
-    padding-left: 0.85rem;
+    padding-left: 0.7rem;
     width: 95%;
   }
 
@@ -1121,9 +1153,9 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 365px;
+    height: 465px;
     background: rgb(0, 0, 0);
-    top: 515px;
+    top: 530px;
     bottom: 20px;
     margin-left: 21px;
   }
@@ -1132,18 +1164,18 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 320px;
+    height: 110px;
     background: rgb(0, 0, 0);
-    top: 930px;
+    top: 1040px;
     bottom: 20px;
-    margin-left: 20px;
+    margin-left: 22.5px;
   }
 
   .divider::before {
     content: "";
     position: absolute;
     left: 24px;
-    top: 484px;
+    top: 499px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -1154,7 +1186,7 @@ body {
     content: "";
     position: absolute;
     left: 24.5px;
-    top: 895px;
+    top: 1010px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -1165,7 +1197,7 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 365px;
+    height: 320px;
     background: rgb(0, 0, 0);
     top: 515px;
     bottom: 20px;
@@ -1175,7 +1207,7 @@ body {
   .divider-03::before {
     content: "";
     position: absolute;
-    left: 406px;
+    left: 5px;
     top: 620px;
     height: 20px;
     width: 20px;
@@ -1362,13 +1394,15 @@ body {
     line-height: 1.5;
     width: 100%;
     padding-left: 0.7rem;
+    
   }
 
   .curso-desc {
     font-size: clamp(16px, 2vw, 21px);
     line-height: 1.5;
-    width: 100%;
     padding-left: 0.7rem;
+    text-align: justify;
+    padding-right: 1.4rem;
   }
 
   .edutitle {
@@ -1392,9 +1426,9 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 365px;
+    height: 410px;
     background: rgb(0, 0, 0);
-    top: 515px;
+    top: 530px;
     bottom: 20px;
     margin-left: 21px;
   }
@@ -1403,18 +1437,18 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 210px;
+    height: 110px;
     background: rgb(0, 0, 0);
-    top: 929px;
+    top: 988px;
     bottom: 20px;
-    margin-left: 22px;
+    margin-left: 23px;
   }
 
   .divider::before {
     content: "";
     position: absolute;
     left: 24px;
-    top: 484px;
+    top: 499px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -1425,7 +1459,7 @@ body {
     content: "";
     position: absolute;
     left: 24.5px;
-    top: 895px;
+    top: 954px;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -1436,7 +1470,7 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height: 365px;
+    height: 320px;
     background: rgb(0, 0, 0);
     top: 515px;
     bottom: 20px;
