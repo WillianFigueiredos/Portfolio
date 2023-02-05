@@ -481,7 +481,7 @@ body {
 	padding-left: 60px;
   font-size: clamp(16px, 1vw, 21px);
   line-height: 1.5;
-  letter-spacing: 0.04rem;
+  letter-spacing: 0.095rem;
   text-align: justify;
 }
 #resume .timeline-content h4 {
