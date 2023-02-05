@@ -360,8 +360,8 @@ body {
 .textabout{
   font-size: clamp(16px, 1vw, 21px);
   line-height: 1.5;
-  letter-spacing: 0.02rem;
-  text-align: left;
+  letter-spacing: 0.04rem;
+  text-align: justify;
 }
 
 .titleabout {
@@ -481,8 +481,8 @@ body {
 	padding-left: 60px;
   font-size: clamp(16px, 1vw, 21px);
   line-height: 1.5;
-  letter-spacing: 0.06rem;
-  text-align: left;
+  letter-spacing: 0.04rem;
+  text-align: justify;
 }
 #resume .timeline-content h4 {
 	position: relative;
