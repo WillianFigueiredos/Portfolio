@@ -361,6 +361,7 @@ body {
   font-size: clamp(16px, 1vw, 21px);
   line-height: 1.5;
   letter-spacing: 0.02rem;
+  text-align: left;
 }
 
 .titleabout {
@@ -476,10 +477,12 @@ body {
 }
 #resume .timeline-content {
 	margin-left: 35%;
+  padding-right: 5%;
 	padding-left: 60px;
   font-size: clamp(16px, 1vw, 21px);
   line-height: 1.5;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.06rem;
+  text-align: left;
 }
 #resume .timeline-content h4 {
 	position: relative;
