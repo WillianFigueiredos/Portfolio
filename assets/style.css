@@ -378,10 +378,16 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.img-fluid {
-  position: relative;
+.app-section .img-div::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 275px;
+  border-top: 9px solid var(--davys-gray);
+  border-left: 9px solid var(--davys-gray);
+  height: 18rem;
+  width: 18rem;
 }
-
 /* ABOUT*/
 
 
@@ -805,6 +811,16 @@ body {
     line-height: 1.5;
   }
 
+  .app-section .img-div::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 07px;
+    border-top: 9px solid var(--davys-gray);
+    border-left: 9px solid var(--davys-gray);
+    height: 18rem;
+    width: 18rem;
+  }
   /* About */
 
   /* Tech */
@@ -1024,6 +1040,19 @@ body {
     line-height: 1.5;
   }
 
+  .img-div img{
+    padding-left: 1rem;
+  }
+  .app-section .img-div::after {
+    content: "";
+    position: absolute;
+    top: 41px;
+    left: 19px;
+    border-top: 9px solid var(--davys-gray);
+    border-left: 9px solid var(--davys-gray);
+    height: 18rem;
+    width: 18rem;
+  }
   /* About */
 
   /* Tech */
@@ -1216,9 +1245,6 @@ body {
   /* Home */
 
   /* About */
-  .picborder::after {
-    display: none;
-  }
 
   .about {
     padding: 0.85rem;
@@ -1241,6 +1267,19 @@ body {
     line-height: 1.5;
   }
 
+  .img-div img{
+    padding-left: 1.8rem;
+  }
+  .app-section .img-div::after {
+    content: "";
+    position: absolute;
+    top: 41px;
+    left: 29px;
+    border-top: 9px solid var(--davys-gray);
+    border-left: 9px solid var(--davys-gray);
+    height: 18rem;
+    width: 18rem;
+  }
   /* About */
 
   /* Tech */
