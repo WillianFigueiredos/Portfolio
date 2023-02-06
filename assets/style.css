@@ -481,8 +481,7 @@ body {
 	padding-left: 60px;
   font-size: clamp(16px, 1vw, 21px);
   line-height: 1.5;
-  letter-spacing: 0.095rem;
-  text-align: justify;
+  letter-spacing: 0.03rem;
 }
 #resume .timeline-content h4 {
 	position: relative;
@@ -1297,6 +1296,7 @@ body {
 	}
 	#resume .timeline-header, #resume .timeline-content {
 		padding-left: 3.5rem;
+    letter-spacing: 0.06rem;
 	}
   #resume .timeline-header h3 {
     font-size: 1.5rem;
@@ -1318,6 +1318,7 @@ body {
   }
   #resume .timeline-content {
 		margin: 0;
+    
 	}
   #resume .timeline-header {
 		float: none;
