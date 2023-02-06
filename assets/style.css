@@ -381,12 +381,15 @@ body {
 .app-section .img-div::after {
   content: "";
   position: absolute;
-  top: 40px;
-  left: 275px;
+  top: 50px;
+  left: 285px;
   border-top: 9px solid var(--davys-gray);
   border-left: 9px solid var(--davys-gray);
-  height: 18rem;
-  width: 18rem;
+  height: 21rem;
+  width: 21rem;
+  background-color:var(--davys-gray);
+  opacity: 0.2;
+  z-index: -2;
 }
 /* ABOUT*/
 
@@ -814,13 +817,17 @@ body {
   .app-section .img-div::after {
     content: "";
     position: absolute;
-    top: 40px;
-    left: 07px;
-    border-top: 9px solid var(--eerie-black);
-    border-left: 9px solid var(--eerie-black);
-    height: 18rem;
-    width: 18rem;
+    top: 50px;
+    left: 11px;
+    border-top: 9px solid var(--davys-gray);
+    border-left: 9px solid var(--davys-gray);
+    height: 16.5rem;
+    width: 16.5rem;
+    background-color:var(--davys-gray);
+    opacity: 0.2;
+    z-index: -2;
   }
+
   /* About */
 
   /* Tech */
@@ -1046,12 +1053,15 @@ body {
   .app-section .img-div::after {
     content: "";
     position: absolute;
-    top: 41px;
-    left: 19px;
-    border-top: 9px solid var(--eerie-black);
-    border-left: 9px solid var(--eerie-black);
+    top: 45px;
+    left: 25px;
+    border-top: 9px solid var(--davys-gray);
+    border-left: 9px solid var(--davys-gray);
     height: 18rem;
     width: 18rem;
+    background-color:var(--davys-gray);
+    opacity: 0.2;
+    z-index: -2;
   }
   /* About */
 
@@ -1273,12 +1283,15 @@ body {
   .app-section .img-div::after {
     content: "";
     position: absolute;
-    top: 41px;
-    left: 29px;
-    border-top: 9px solid var(--eerie-black);
-    border-left: 9px solid var(--eerie-black);
+    top: 49px;
+    left: 35px;
+    border-top: 9px solid var(--davys-gray);
+    border-left: 9px solid var(--davys-gray);
     height: 18rem;
     width: 18rem;
+    background-color:var(--davys-gray);
+    opacity: 0.2;
+    z-index: -2;
   }
   /* About */
 
