@@ -816,8 +816,8 @@ body {
     position: absolute;
     top: 40px;
     left: 07px;
-    border-top: 9px solid var(--davys-gray);
-    border-left: 9px solid var(--davys-gray);
+    border-top: 9px solid var(--eerie-black);
+    border-left: 9px solid var(--eerie-black);
     height: 18rem;
     width: 18rem;
   }
@@ -1048,8 +1048,8 @@ body {
     position: absolute;
     top: 41px;
     left: 19px;
-    border-top: 9px solid var(--davys-gray);
-    border-left: 9px solid var(--davys-gray);
+    border-top: 9px solid var(--eerie-black);
+    border-left: 9px solid var(--eerie-black);
     height: 18rem;
     width: 18rem;
   }
@@ -1275,8 +1275,8 @@ body {
     position: absolute;
     top: 41px;
     left: 29px;
-    border-top: 9px solid var(--davys-gray);
-    border-left: 9px solid var(--davys-gray);
+    border-top: 9px solid var(--eerie-black);
+    border-left: 9px solid var(--eerie-black);
     height: 18rem;
     width: 18rem;
   }
