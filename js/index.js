@@ -85,7 +85,6 @@ ScrollReveal().reveal(".slide-right", {
   reset: true,
 });
 
-
 var linkSobre = document.querySelector('.modal .navl-list a[href="#about"]');
 var linkTech = document.querySelector('.modal .navl-list a[href="#tech"]');
 var linkProjetos = document.querySelector(
@@ -150,7 +149,3 @@ linkresume.addEventListener("click", function (event) {
   });
   $("#myModal").modal("hide");
 });
-
-
-
-
