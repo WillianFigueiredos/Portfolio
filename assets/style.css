@@ -628,16 +628,26 @@ body {
 
 .repo-btn {
   --bs-btn-color: var(--eerie-black) !important;
-  --bs-btn-border-color: var(--davys-gray) !important;
-  --bs-btn-hover-bg: none;
-  --bs-btn-hover-border-color: var(--davys-gray) !important;
+  --bs-btn-border-color: var(--eerie-black) !important;
+  --bs-btn-hover-bg: none !important;
+  --bs-btn-hover-border-color: var(--eerie-black) !important;
+  --bs-btn-active-bg: var(--eerie-black) !important;
+  --bs-btn-active-border-color: var(--eerie-black) !important;
+  --bs-btn-disabled-color: var(--eerie-black) !important;
+  --bs-btn-hover-color: var(--eerie-black) !important;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  color: rgb(255 255 255)!important;
 }
 
 .deploy-btn {
   --bs-btn-color: var(--eerie-black) !important;
-  --bs-btn-border-color: var(--davys-gray) !important;
-  --bs-btn-hover-bg: none;
-  --bs-btn-hover-border-color: var(--davys-gray) !important;
+  --bs-btn-border-color: var(--eerie-black) !important;
+  --bs-btn-hover-bg: none !important;
+  --bs-btn-hover-border-color: var(--eerie-black) !important;
+  --bs-btn-active-bg: var(--eerie-black) !important;
+  --bs-btn-active-border-color: var(--eerie-black) !important;
+  --bs-btn-hover-color: var(--eerie-black) !important;
 }
 
 .Projects-bg {
