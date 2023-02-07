@@ -82,6 +82,7 @@ body {
   font-weight: 500;
   font-size: 1.3rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .navl-list {
@@ -391,6 +392,7 @@ body {
   opacity: 0.2;
   z-index: -2;
 }
+
 /* ABOUT*/
 
 
@@ -458,7 +460,7 @@ body {
 	border-radius: 50%;
 	text-align: center;
 	position: absolute;
-	left: 35.5%;
+	left: 35.8%;
 	top: .9rem;
 	margin-left: -2.4rem;
 }
@@ -576,7 +578,10 @@ body {
   cursor: pointer;
   color: var(--eerie-black);
 }
-
+.Certificados:hover{
+  color: var(--eerie-black);
+  text-decoration: underline;
+}
 /* XP */
 
 
@@ -714,7 +719,6 @@ body {
   background: var(--eerie-black);
   opacity: 0.5;
 }
-
 /* SOCIAL MEDIA */
 
 
