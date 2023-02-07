@@ -1168,7 +1168,7 @@ body {
   }
 
   #resume .timeline-wrap::before {
-    left: 1.8rem;
+    left: 1.4rem;
   }
 
   #resume .timeline-ico {
@@ -1410,7 +1410,7 @@ body {
   }
 
   #resume .timeline-wrap::before {
-    left: 1.8rem;
+    left: 1.4rem;
   }
 
   #resume .timeline-ico {
@@ -1462,7 +1462,7 @@ body {
   }
 
   #resume .timeline-ico {
-    left: 2.9rem;
+    left: 2.4rem;
   }
 
   #resume .timeline-ico i {
@@ -1493,4 +1493,8 @@ body {
     font-size: 2rem;
     font-weight: 600;
   }
+}
+
+@media screen and (min-width: 431px ) and (max-width: 768px){
+  
 }
